@@ -126,7 +126,7 @@
   overflow: hidden; 
   background-image: url("./public/grass.jpg");
   background-position: bottom;
-  background: 100% 400px;
+  background: 100% 600px;
 }
 form {
   max-width: 600px;
