@@ -39,7 +39,7 @@
             </div>
             <div id="header" class="cell small-12 medium-12 large-12 text-right">
                 <img id = img1 
-                src=./public/sunset_boat.jpg>
+                src=./public/p_long_img1.jpg>
             </div>
         </div>
 
