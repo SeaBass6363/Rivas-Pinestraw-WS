@@ -3,10 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url("./public/grass.jpg");
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: contain
+
 }
 .cell {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box shadow */
@@ -160,6 +157,10 @@ input {
 }
 #entire {
   margin: 10px;
+  background-image: url("./public/grass.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain
 }
 
 /* label {
