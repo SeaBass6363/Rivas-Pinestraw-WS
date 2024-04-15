@@ -67,28 +67,28 @@
             <div id="body" class="cell small-12 medium-8 large-8 text-right">
                 <h1 id="text">Products</h1>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                    <img src="./public/black-mulch.png" width="600" height="400">
-                    <div id="desc">Long Needle Pine Straw</div>
+                    <img src="./public/pinestraw.png" width="600" height="400">
+                    <div id="desc">Pine Straw</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
                     <img src="./public/black-mulch.png" width="600" height="400">
-                    <div id="desc">Short Needle Pine Straw</div>
+                    <div id="desc">Black Mulch</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                    <img src="./public/black-mulch.png" width="600" height="400">
-                    <div id="desc">Mulch</div>
+                    <img src="./public/brown-mulch.png" width="600" height="400">
+                    <div id="desc">Brown Mulch</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                    <img src="./public/black-mulch.png" width="600" height="400">
-                    <div id="desc">Wheatstraw</div>
-                </div>
-                <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                    <img src="./public/black-mulch.png" width="600" height="400">
-                    <div id="desc">Top Soil</div>
+                    <img src="./public/red-mulch.png" width="600" height="400">
+                    <div id="desc">Red Mulch</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
                     <img src="./public/black-mulch.png" width="600" height="400">
                     <div id="desc">Mini Nuggets</div>
+                </div>
+                <div id="product" class="cell small-12 medium-4 large-4 text-right">
+                    <img src="./public/top-soil.png" width="600" height="400">
+                    <div id="desc">Top Soil</div>
                 </div>
             </div>
         </div>
