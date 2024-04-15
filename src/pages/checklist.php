@@ -22,6 +22,14 @@
           <i class="fa fa-bars"></i>
       </a>
   </div>
+  <h2>Checklist Page</h2>
+  <form>
+  <div>
+        <label for="about">About Me Page:</label>
+        <input type="checkbox">
+    </div>
+    <br>
+    </form>
   <script>
         function hideNav() {
             var x = document.getElementById("myTopnav");
