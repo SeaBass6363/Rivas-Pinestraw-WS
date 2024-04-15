@@ -97,6 +97,7 @@ html {
   background: transparent;
 }
 #products {
+  display: flex;
   margin: auto;
   border: 1px solid #ccc;
   width: 180px;
