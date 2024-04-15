@@ -155,7 +155,6 @@ input {
   box-sizing: border-box;
 }
 #entire {
-  margin: 10px;
   background-image: url("./public/grass.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
