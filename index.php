@@ -28,7 +28,7 @@
         <a href="./src/pages/about.php">About Us</a>
         <a href="./src/pages/order-form.php">Order Form</a>
         <a href="./src/pages/checklist.php">Checklist</a>
-        <a href="./src/pages/contact.php">Contact Us</a>
+        <a href="./src/pages/description.php">Description</a>
         <a href="./src/pages/sign-on.php">Sign In</a>
         <a href="javascript:void(0);" class="icon" onclick="hideNav()">
             <i class="fa fa-bars"></i>

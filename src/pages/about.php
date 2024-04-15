@@ -17,14 +17,14 @@
       <a href="./about.php">About Us</a>
       <a href="./order-form.php">Order Form</a>
       <a href="./checklist.php">Checklist</a>
-      <a href="./contact.php">Contact Us</a>
+      <a href="./description.php">Description</a>
       <a href="./sign-on.php">Sign In</a>
       <a href="javascript:void(0);" class="icon" onclick="hideNav()">
           <i class="fa fa-bars"></i>
       </a>
   </div>
   <br><br>
-  <h2>About Us Page</h2>
+  <h2>About Us</h2>
   <form>
     <h5>Who am I?</h5>
     <p>
