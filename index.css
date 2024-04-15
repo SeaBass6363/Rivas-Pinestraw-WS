@@ -98,7 +98,6 @@ html {
 }
 #products {
   margin: auto;
-  border: 1px solid #ccc;
   padding: 10px;
 }
 
@@ -107,7 +106,6 @@ html {
 }
 
 #product img {
-  width: 100%;
   height: auto;
 }
 
