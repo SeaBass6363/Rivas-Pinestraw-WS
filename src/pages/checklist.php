@@ -25,22 +25,27 @@
   <h2>Checklist Page</h2>
   <form>
     <label class="container">
-        <a href="./about.php">About Us</a>
+        <a href="../../index.php">Homepage</a>
         <input type="checkbox" checked="checked">
         <span class="checkmark"></span>
     </label>
     <label class="container">
-        <a href="./about.php">About Us</a>
+        <a href="./description.php">Description Page</a>
         <input type="checkbox" checked="checked">
         <span class="checkmark"></span>
     </label>
     <label class="container">
-        <a href="./about.php">About Us</a>
+    <a href="./order-form.php">Order Form</a>
         <input type="checkbox" checked="checked">
         <span class="checkmark"></span>
     </label>
     <label class="container">
-        <a href="./about.php">About Us</a>
+        <a href="./sign-on.php">Sign In</a>
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+    </label>
+    <label class="container">
+        <a href="./sign-on.php">Sign In</a>
         <input type="checkbox" checked="checked">
         <span class="checkmark"></span>
     </label>
