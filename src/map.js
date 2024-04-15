@@ -222,9 +222,6 @@ async function addMarker(toMap, title, location, address) {
 
 
 
-
-
-
 // Function to calculate the zoom level based on the selected radius
 function calculateZoomLevel(radius) {
     // You can customize this formula based on your specific requirements
