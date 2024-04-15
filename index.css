@@ -1,13 +1,12 @@
-.cell {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .cell {
   border: 1px solid black;
-}
-#title_page {
-  display: flex;
-  height: 40px;
-  border-bottom: none;
-  border-right: none;
-  justify-content:left;
-}
+} */
+
 .topnav {
   overflow: hidden;
   background-color: #333;
