@@ -34,11 +34,11 @@
     <div id="entire">
         <div class="topnav" id="myTopnav">
                 <a href="./index.php" class="active">RIVAS PINESTRAW</a>
-                <a href="#about">About Us</a>
-                <a href="#order">Order Form</a>
-                <a href="#checklist">Checklist</a>
-                <a href="#contact">Contact Us</a>
-                <a href="#signin">Sign In</a>
+                <a href="./about.php">About Us</a>
+                <a href="./order-form.php">Order Form</a>
+                <a href="./checklist.php">Checklist</a>
+                <a href="./contact.php">Contact Us</a>
+                <a href="./sign-on.php">Sign In</a>
                 <a href="javascript:void(0);" class="icon" onclick="hideNav()">
                     <i class="fa fa-bars"></i>
                 </a>
@@ -67,27 +67,39 @@
             <div id="body" class="cell small-12 medium-8 large-8 text-right">
                 <h1 id="text">Products</h1>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                    <img src="./public/pinestraw.png" width="600" height="400">
+                    <a target="_blank" href="./order-form.php">
+                        <img src="./public/pinestraw.png" width="600" height="400">
+                    </a>
                     <div id="desc">Pine Straw</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                    <img src="./public/black-mulch.png" width="600" height="400">
+                    <a target="_blank" href="./order-form.php">
+                        <img src="./public/pinestraw.png" width="600" height="400">
+                    </a>
                     <div id="desc">Black Mulch</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                    <img src="./public/brown-mulch.png" width="600" height="400">
+                    <a target="_blank" href="./order-form.php">
+                        <img src="./public/pinestraw.png" width="600" height="400">
+                    </a>
                     <div id="desc">Brown Mulch</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                    <img src="./public/red-mulch.png" width="600" height="400">
+                    <a target="_blank" href="./order-form.php">
+                        <img src="./public/pinestraw.png" width="600" height="400">
+                    </a>
                     <div id="desc">Red Mulch</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                    <img src="./public/black-mulch.png" width="600" height="400">
+                    <a target="_blank" href="./order-form.php">
+                        <img src="./public/pinestraw.png" width="600" height="400">
+                    </a>
                     <div id="desc">Mini Nuggets</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                    <img src="./public/top-soil.png" width="600" height="400">
+                    <a target="_blank" href="./order-form.php">
+                        <img src="./public/pinestraw.png" width="600" height="400">
+                    </a>
                     <div id="desc">Top Soil</div>
                 </div>
             </div>
