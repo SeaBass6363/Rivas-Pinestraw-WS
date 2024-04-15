@@ -23,20 +23,10 @@
       </a>
   </div>
   <h2>Checklist Page</h2>
-  <ul class="checklist">
-        <li>
-            <a href="./about.php">About Me Page</a>
-            <input type="checkbox">
-        </li>
-        <li>
-            <a href="./about.php">About Me Page</a>
-            <input type="checkbox">
-        </li>
-        <li>
-            <a href="./about.php">About Me Page</a>
-            <input type="checkbox">
-        </li>
-    </ul>
+    <label class="container">One
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+    </label>
   <script>
         function hideNav() {
             var x = document.getElementById("myTopnav");
