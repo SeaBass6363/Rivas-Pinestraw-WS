@@ -3,8 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url("./public/grass.jpg");
-  background-position: bottom;
+
 }
 .cell {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box shadow */
@@ -123,6 +122,8 @@
   align-items: center;
   height: 50px;  
   overflow: hidden; 
+  background-image: url("./public/grass.jpg");
+  background-position: bottom;
 }
 form {
   max-width: 600px;
