@@ -163,7 +163,7 @@ ul {
   display: block;
 }
 li{
-  border: 1cap solid black;
+  border: 1px solid black;
   padding: 5px;
   text-align: center;
 }
