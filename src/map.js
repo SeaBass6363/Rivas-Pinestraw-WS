@@ -11,6 +11,33 @@ function initMap() {
         zoom: 12, 
     };
     map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+    const layer = new google.maps.FusionTablesLayer({
+        query: {
+            select: 'Geocodable address',
+            from: '1FjVvT2lxm_meECyU7Mn1TaZOvvwu3rJnpZztPqvr',
+        },
+    });
+
+    layer.addListener('click', function (event) {
+        document.getElementById('end').value = event.row.Address.value;
+        calculateAndDisplayRoute();
+    });
+
+    layer.setMap(map);
+
+    directionsService = new google.maps.DirectionsService();
+    directionsDisplay = new google.maps.DirectionsRenderer();
+    directionsDisplay.setMap(map);
+    directionsDisplay.setPanel(document.getElementById('right-panel'));
+
+    const control = document.getElementById('floating-panel');
+    control.style.display = 'block';
+    map.controls[google.maps.ControlPosition.TOP_CENTER].push(control);
+
+    document.getElementById('but').addEventListener('click', function () {
+        calculateAndDisplayRoute();
+    });
 }
 		
 		 
