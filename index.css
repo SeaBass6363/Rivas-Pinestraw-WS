@@ -180,7 +180,8 @@ li {
 
 .container {
   display: flex;
-  padding-left: 35px; 
+  padding-left: 10px;
+  padding-right: 10px; 
   margin-bottom: 12px;
   cursor: pointer;
   overflow: wrap;
@@ -192,7 +193,7 @@ li {
   display: block;
   cursor: pointer;
   margin-top: 5px;
-  align-content: flex-start;
+  margin: auto;
   overflow: wrap;
 }
 
