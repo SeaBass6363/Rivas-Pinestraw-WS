@@ -67,26 +67,6 @@
     text-align: left;
   }
 }
-#navigation {
-  background-color: black;
-  display: flex;
-  height: 40px;
-  border-bottom: none;
-  justify-content: end;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-#navigation a {
-  color: white;
-  float: right;
-  text-decoration: none;
-  padding: 10px 16px;
-  text-align: center;
-  transition: background 0.3s ease;
-}
-#navigation a:hover {
-  background-color: #ddd;
-  color: black;
-}
 #link {
   border-right: solid 1px black;
   height: 5%;
