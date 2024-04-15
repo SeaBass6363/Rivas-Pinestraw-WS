@@ -22,6 +22,24 @@
           <i class="fa fa-bars"></i>
       </a>
   </div>
+  <form>
+    <h5>Section 1</h5>
+    <p>
+        My name is Hardwood. I am a senior Computer Science major at Georgia
+        State University.
+    </p>
+    <br><br>
+    <h5>Section 2</h5>
+    <p></p>
+    <br><br>
+    <h5>Section 3</h5>
+    <p></p>
+    <br><br>
+    <h5>Section 4</h5>
+    <p></p>
+    <br><br>
+
+  </form>
   <script>
         function hideNav() {
             var x = document.getElementById("myTopnav");
