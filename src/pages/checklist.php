@@ -23,7 +23,7 @@
       </a>
   </div>
   <h2>Checklist Page</h2>
-  <form>
+
     <ul >Database Usage
         <li class="cell small-1 medium-1 large-1">
             <a href="../../index.php">Homepage</a>
@@ -115,7 +115,7 @@
         <input type="checkbox">
         <span class="checkmark"></span>
     </label> -->
-    </form>
+    
   <script>
         function hideNav() {
             var x = document.getElementById("myTopnav");
