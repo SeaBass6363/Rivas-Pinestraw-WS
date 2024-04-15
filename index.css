@@ -191,14 +191,14 @@ li {
 }
 
 #map {
-	border-radius: 25px;
-	/* width: 250px;
-    height: 250px; */
+	  border-radius: 25px;
+	  width: 50%;
+    height: 50%;
     background-color: #ddd;
     margin: auto;
 }
 
-#map-container {
+/* #map-container {
   height: 50px;
   width: 50px;
-}
+} */
