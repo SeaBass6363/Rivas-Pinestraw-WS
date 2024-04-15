@@ -157,7 +157,7 @@ input {
   background-image: url("./public/grass.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: contain
+  background-size: cover;
 }
 
 /* label {
