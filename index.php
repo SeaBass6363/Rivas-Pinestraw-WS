@@ -31,18 +31,18 @@
 </head>
 
 <body>
+    <div class="topnav" id="myTopnav">
+        <a href="./src/pages/index.php" class="active">RIVAS PINESTRAW</a>
+        <a href="./src/pages/about.php">About Us</a>
+        <a href="./src/pages/order-form.php">Order Form</a>
+        <a href="./src/pages/checklist.php">Checklist</a>
+        <a href="./src/pages/contact.php">Contact Us</a>
+        <a href="./src/pages/sign-on.php">Sign In</a>
+        <a href="javascript:void(0);" class="icon" onclick="hideNav()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
     <div id="entire">
-        <div class="topnav" id="myTopnav">
-                <a href="./src/pages/index.php" class="active">RIVAS PINESTRAW</a>
-                <a href="./src/pages/about.php">About Us</a>
-                <a href="./src/pages/order-form.php">Order Form</a>
-                <a href="./src/pages/checklist.php">Checklist</a>
-                <a href="./src/pages/contact.php">Contact Us</a>
-                <a href="./src/pages/sign-on.php">Sign In</a>
-                <a href="javascript:void(0);" class="icon" onclick="hideNav()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
         <div class="grid-x">
             <div id="header" class="cell small-12 medium-12 large-12 text-right">
                 <img id = img1 
@@ -111,15 +111,6 @@
             </div>
         </div>
     </div>
-    <script>
-function hideNav() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
+
 </body>
 </html>
