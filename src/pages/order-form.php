@@ -41,7 +41,6 @@ define( 'DB_HOST', 'localhost' );
             <input type="submit" value="Submit">
         </form>
          
-        <div id=showOrders></div>
   <script>
         function hideNav() {
             var x = document.getElementById("myTopnav");
