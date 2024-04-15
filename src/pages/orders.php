@@ -12,7 +12,7 @@
 <?php
 
 if(!isset($_COOKIE['userid'])) {
-    header("Location: week6Login.php");
+    header("Location: ./sign-on.php");
   } else {
     echo "Welcome: {$_COOKIE['userid']}<br>";
   }
