@@ -12,7 +12,7 @@
 
 <body>
   <div class="topnav" id="myTopnav">
-      <a href="./index.php" class="active">RIVAS PINESTRAW</a>
+      <a href="../../index.php" class="active">RIVAS PINESTRAW</a>
       <a href="./about.php">About Us</a>
       <a href="./order-form.php">Order Form</a>
       <a href="./checklist.php">Checklist</a>
