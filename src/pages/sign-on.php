@@ -58,10 +58,28 @@ define( 'DB_HOST', 'localhost' );
   </div>
   <br><br>
   <form method="post">
-  Username: <input type="text" name="username"><br>
-  Password: <input type="text" name="password"><br>
+  Username: <input type="texty" name="username"><br>
+  Password: <input type="texty" name="password"><br>
   <input type="submit" value="Submit">
 </form>
+<?php
+// if($_POST["username"] != ''){
+//   // CheckLogin($_POST["username"], $_POST["password"])
+//   echo"done"
+// }
+// else{
+//   setcookie("show", "", time() - 3600, '/');
+//   // echo "Please Enter a Username and Password"
+// }
+if($_POST['username']!= '' && $_POST['password']!= '') {
+  CheckLogin($_POST['username'], $_POST['password']);
+}
+else{
+  echo"Please enter Username and Password";
+}
+
+
+?>
   <script>
         function hideNav() {
             var x = document.getElementById("myTopnav");
