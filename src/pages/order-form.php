@@ -60,7 +60,7 @@ define( 'DB_HOST', 'localhost' );
                 total = $("#total").val();
                 // timestamp = $("#timestamp").val();
 
-                if(ordername != '' && address != '' && phone != ''){
+                if(ordername != '' && address != '' && phone != '' && product != ''&& quantity != ''&& service != ''){
                     $.get("../ajax.php",{"cmd": "create", "ordername" : ordername, "address" : address, "phone" : phone, "product" : product, "quantity" : quantity, "service" : service, "total" : total}, function(data) {
                     $("#showOrders").html(data);
                     });
