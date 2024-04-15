@@ -33,7 +33,7 @@
     <div id="entire">
         <div class="grid-x">
             <div id="title_page" class="cell small-12 medium-4 large-4 text-right">
-                <h3>RIVAS PINESTRAW</h3>
+                <h3 id="text">RIVAS PINESTRAW</h3>
             </div>
             <div id="navigation" class="cell small-12 medium-8 large-8 text-right">
                 <a href="./index.php">Home</a> 
