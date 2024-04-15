@@ -63,14 +63,6 @@ define( 'DB_HOST', 'localhost' );
   <input type="submit" value="Submit">
 </form>
 <?php
-// if($_POST["username"] != ''){
-//   // CheckLogin($_POST["username"], $_POST["password"])
-//   echo"done"
-// }
-// else{
-//   setcookie("show", "", time() - 3600, '/');
-//   // echo "Please Enter a Username and Password"
-// }
 if($_POST['username']!= '' && $_POST['password']!= '') {
   CheckLogin($_POST['username'], $_POST['password']);
 }
