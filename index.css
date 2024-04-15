@@ -172,7 +172,7 @@ ul {
 
 }
 li {
-  margin-left: auto;
+  margin: auto;
   display: flex;
   overflow: wrap;
 

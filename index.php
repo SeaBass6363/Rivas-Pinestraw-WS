@@ -53,7 +53,7 @@
                 </p>
                 <br>
                 <div id="map-container" >
-                    <div id="map" class="cell small-12 medium-4 large-4 text-right"></div>
+                    <div id="map" ></div>
                 </div>
             </div>
             <div id="body" class="cell small-12 medium-8 large-8 text-right">
