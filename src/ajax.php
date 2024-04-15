@@ -14,14 +14,14 @@ $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 function deleteOrder($id) {
     global $conn;
 
-    $del = "DELETE FROM Order WHERE id = '$id' ";
+    $del = "DELETE FROM Orders WHERE id = '$id' ";
     $result = $conn->query($del);
 }
  
 function insertOrder($ordername, $address, $phone , $product, $service, $total) {
     global $conn;
    
-    $insert = "INSERT INTO Order (id, ordername, address, phone, product, service, total) VALUES (NULL, '$ordername', '$address', '$phone' , '$product', '$service', '$total', null)";
+    $insert = "INSERT INTO Orders (id, ordername, address, phone, product, service, total) VALUES (NULL, '$ordername', '$address', '$phone' , '$product', '$service', '$total', null)";
     $result = $conn->query($insert);
 }
  
@@ -30,7 +30,7 @@ function insertOrder($ordername, $address, $phone , $product, $service, $total) 
 function showOrders() {
     global $conn;
 
-    $sql = "SELECT id, ordername, address, phone, product, quantity, service, total, timestamp FROM Order";
+    $sql = "SELECT id, ordername, address, phone, product, quantity, service, total, timestamp FROM Orders";
     $result = mysqli_query($conn, $sql);
 
     if (mysqli_num_rows($result) > 0) {
