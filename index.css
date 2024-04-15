@@ -167,7 +167,7 @@ label {
 
 }
 ul {
-  display: block;
+  display: flexbox;
 }
 li {
   margin-left: auto;
