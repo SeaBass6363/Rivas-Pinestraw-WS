@@ -64,10 +64,11 @@ define( 'DB_HOST', 'localhost' );
                     $.get("../ajax.php",{"cmd": "create", "ordername" : ordername, "address" : address, "phone" : phone, "product" : product, "quantity" : quantity, "service" : service, "total" : total}, function(data) {
                     $("#showOrders").html(data);
                     });
+                    alert("The form was submitted");
                     return(false);
                 }
                 else{
-                    window.alert("Please Fill out at least one")
+                    window.alert("Missing Information")
                 }
             }
     </script>
