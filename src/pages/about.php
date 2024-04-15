@@ -23,20 +23,57 @@
       </a>
   </div>
   <form>
-    <h5>Section 1</h5>
+    <h5>Who am I?</h5>
     <p>
-        My name is Hardwood. I am a senior Computer Science major at Georgia
-        State University.
+        My name is Hardwood. I am a senior Computer Science major 
+        at Georgia State University. Before going to college, I
+        was in the military. I served four years as an Aviation
+        ordnanceman on the KC130J. I enjoyed my time in and am 
+        excited for what comes next. 
     </p>
     <br><br>
-    <h5>Section 2</h5>
-    <p></p>
+    <h5>Project Description</h5>
+    <p>
+        I made a website for a pine straw company. Before joinging
+        the Marines, I worked in a site that sold landscaping 
+        supplies but specialized in pine straw. This website was
+        made with the company in mind. I created it, thinking
+        on what was useful for the company and the clients.
+    </p>
     <br><br>
-    <h5>Section 3</h5>
-    <p></p>
+    <h5>Description of technology used</h5>
+    <p>
+        For this website, I began using React but had trouble
+        putting the app on AWS so I decided to stick with what we
+        work with this semester. The technologies I used were php,
+        javascript, jquery, html, css, foundation framework, and the 
+        awesome font library.
+    </p>
+    <p>
+        html, css, the foundation framework, and the awesome font 
+        library was used to give my website some structure and style.
+        The awesome font family was specificlly used for the navigation
+        bar, so it can minimize and turn into the bars.
+    </p>
+    <p>
+        php, javascript, and jquery was used to give my site some interactivety.
+    </p>
+    <p>
+        I used phpMyAdmin and DBmaria to store data
+    </p>
     <br><br>
-    <h5>Section 4</h5>
-    <p></p>
+    <h5>What have I learned?</h5>
+    <p>
+        I learned how useful php can be when creating web applications.
+        This is the first time I have coded in php. One thing that I
+        found useful was the use of cookies. I never really gave it 
+        much thought on how they allow users to seamlessly interact in
+        a site without having to login again. Though, the most important
+        thing I believe I learned was that hosting a website on a virtual
+        instance has a lot of unforseen naunces that I did not expect. 
+        You really have to learn to pivit at times to be able to make 
+        certain things in a timely manner.
+    </p>
     <br><br>
 
   </form>
