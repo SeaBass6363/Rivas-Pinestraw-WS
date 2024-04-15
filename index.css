@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+#entire {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box shadow */
   border-radius: 5px;
 }
