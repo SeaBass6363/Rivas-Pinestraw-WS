@@ -8,6 +8,10 @@
   border-right: none;
   justify-content:left;
 }
+#title {
+  padding: 10px 16px;
+  text-align: center;
+}
 #navigation {
   display: flex;
   height: 40px;
