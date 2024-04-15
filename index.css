@@ -128,12 +128,7 @@ form {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box shadow */
 }
-label {
-  display: block;
-  font-size: 14px;
-  margin-bottom: 5px;
-  color: #495057; /* Dark gray label color */
-}
+
 
 input[type="texty"]
   
@@ -155,6 +150,21 @@ input {
 }
 #entire {
   margin: 10px;
+}
+
+label {
+  /* display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #495057; Dark gray label color */
+
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff; /* White background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box shadow */
+
 }
 
 .container {
