@@ -67,22 +67,22 @@
             <div id="body" class="cell small-12 medium-8 large-8 text-right">
                 <h1 id="text">Products</h1>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                    <h3 id="text">Long Needle Pine Straw</h3>
+                    <h5 id="text">Long Needle Pine Straw</h5>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                <h3 id="text">Short Needle Pine Straw</h3>
+                <h5 id="text">Short Needle Pine Straw</h5>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                <h3 id="text">Mulch</h3>Mulch
+                <h5 id="text">Mulch</h5>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                <h3 id="text">Wheatstraw</h3>
+                <h5 id="text">Wheatstraw</h5>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                <h3 id="text">Top Soil</h3>
+                <h5 id="text">Top Soil</h5>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                <h3 id="text">Mini Nuggets</h3>
+                <h5 id="text">Mini Nuggets</h5>
                 </div>
             </div>
         </div>
