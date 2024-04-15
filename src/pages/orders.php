@@ -10,6 +10,13 @@
   <title>Orders</title>
 </head>
 <?php
+
+if(!isset($_COOKIE['userid'])) {
+    header("Location: week6Login.php");
+  } else {
+    echo "Welcome: {$_COOKIE['userid']}<br>";
+  }
+
 define( 'DB_NAME', 'rivas-lands' );
 define( 'DB_USER', 'root' );
 define( 'DB_PASSWORD', 'CoolCat2024' );
