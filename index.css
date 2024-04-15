@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+  background-image: "./public/grass.jpg";
 }
 .cell {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box shadow */
@@ -13,7 +13,7 @@
 
 .topnav {
   overflow: hidden;
-  background-color: #1d1f24;
+  background-color: #038129;
   width: 100%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box shadow */
   border-radius: 5px;
@@ -91,7 +91,7 @@
   padding: 10px;
   text-align:center;
   overflow: hidden; 
-  margin: auto;
+  
 }
 #products {
   margin: auto;
