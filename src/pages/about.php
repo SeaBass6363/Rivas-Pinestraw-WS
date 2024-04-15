@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <h2>About Us Page</h2>
   <div class="topnav" id="myTopnav">
       <a href="../../index.php" class="active">RIVAS PINESTRAW</a>
       <a href="./about.php">About Us</a>

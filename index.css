@@ -161,6 +161,7 @@ input {
 /* } */ 
 ul {
   display: block;
+  text-align: center;
 }
 li{
   border: 1px solid black;
@@ -178,4 +179,8 @@ li{
 
 #map-container {
  margin: auto;
+}
+
+h2 {
+  text-align: center;
 }

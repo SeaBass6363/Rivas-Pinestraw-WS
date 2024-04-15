@@ -56,6 +56,7 @@ define( 'DB_HOST', 'localhost' );
           <i class="fa fa-bars"></i>
       </a>
   </div>
+  <h2>Log-In</h2>
   <br><br>
   <form method="post">
   Username: <input type="texty" name="username"><br><br>
