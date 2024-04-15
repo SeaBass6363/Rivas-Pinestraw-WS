@@ -161,29 +161,6 @@ input {
 /* } */ 
 ul {
   display: block;
-  overflow: wrap;
-
-}
-li {
-  margin: auto;
-  display: flex;
-  overflow: wrap;
-
-}
-
-.container {
-  display: flex;
-  padding-left: 10px;
-  padding-right: 10px; 
-  margin-bottom: 12px;
-  cursor: pointer;
-}
-
-/* Hide the browser's default checkbox */
-.container input {
-  display: flex;
-  cursor: pointer;
-  padding-left: 5px;
 }
 
 #map {
