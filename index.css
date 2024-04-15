@@ -175,7 +175,7 @@ li {
 
 }
 
-.map-container {
+#map-container {
   height: 200px;
   width: 300px;
 }
