@@ -34,7 +34,6 @@ function showOrders() {
     $result = mysqli_query($conn, $sql);
 
     if (mysqli_num_rows($result) > 0) {
-      echo"Connected2";
       // output data of each row
       while($row = mysqli_fetch_assoc($result)) {
         $id = $row["id"];
