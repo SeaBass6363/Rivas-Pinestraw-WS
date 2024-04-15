@@ -3,22 +3,20 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
+
 }
-#entire {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box shadow */
-  border-radius: 10px;
-}
-/* .cell {
-  border: 1px solid black;
-} */
+.cell {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box shadow */
+    border-radius: 5px;
+} 
 
 
 .topnav {
   overflow: hidden;
   background-color: #1d1f24;
   width: 100%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box shadow */
+  border-radius: 5px;
 }
 
 .topnav a {
