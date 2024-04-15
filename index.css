@@ -175,22 +175,15 @@ li {
 
 }
 
-#map-container {
-  height: 200px;
-  width: 300px;
-}
+
 
 .container {
-  display: block;
+  display: flex;
   position: relative;
-  padding-left: 35px;
+  /* padding-left: 35px; */
   margin-bottom: 12px;
   cursor: pointer;
-  /* font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; */
+
 }
 
 /* Hide the browser's default checkbox */
@@ -249,8 +242,13 @@ li {
 
 #map {
 	border-radius: 25px;
-	width: 750px;
-    height: 750px;
+	width: 100;
+    height: 100;
     background-color: #ddd;
     margin: auto;
 }
+
+/* #map-container {
+  height: 50px;
+  width: 50px;
+} */
