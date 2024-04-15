@@ -93,7 +93,7 @@
   overflow: hidden; 
 }
 #products {
-  margin: 25px;
+  margin: auto;
   border: 1px solid #ccc;
   float:left;
   width: 180px;
@@ -167,7 +167,7 @@ label {
 
 }
 ul {
-  display: flex;
+  display: block;
 }
 li {
   margin-left: auto;
