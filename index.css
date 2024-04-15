@@ -163,7 +163,7 @@ ul {
   display: block;
 }
 li{
-  border: 2px black;
+  border: 2px solid black;
 }
 input [type="checked"] {
   padding: 0px;
