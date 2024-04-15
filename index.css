@@ -137,6 +137,8 @@ label {
   margin-bottom: 5px;
   color: #495057; /* Dark gray label color */
 }
+
+input[type="texty"]
   
 input {
   width: 100%;
