@@ -58,8 +58,8 @@ define( 'DB_HOST', 'localhost' );
   </div>
   <br><br>
   <form method="post">
-  Username: <input type="texty" name="username"><br>
-  Password: <input type="texty" name="password"><br>
+  Username: <input type="texty" name="username"><br><br>
+  Password: <input type="texty" name="password"><br><br>
   <input type="submit" value="Submit">
 </form>
 <?php
