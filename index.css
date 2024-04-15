@@ -98,7 +98,7 @@ html {
 }
 #products {
   margin: auto;
-  border: 1px solid #ccc;
+  border: 1px transparent;
   float:left;
   width: 180px;
   height: 380px;
