@@ -67,27 +67,27 @@
             <div id="body" class="cell small-12 medium-8 large-8 text-right">
                 <h1 id="text">Products</h1>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                    <img src="sunset_boat.jpg" width="600" height="400">
+                    <img src="./public/black-mulch.png" width="600" height="400">
                     <div id="desc">Long Needle Pine Straw</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                    <img src="sunset_boat.jpg" width="600" height="400">
+                    <img src="./public/black-mulch.png" width="600" height="400">
                     <div id="desc">Short Needle Pine Straw</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                    <img src="sunset_boat.jpg" width="600" height="400">
+                    <img src="./public/black-mulch.png" width="600" height="400">
                     <div id="desc">Mulch</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                    <img src="sunset_boat.jpg" width="600" height="400">
+                    <img src="./public/black-mulch.png" width="600" height="400">
                     <div id="desc">Wheatstraw</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                    <img src="sunset_boat.jpg" width="600" height="400">
+                    <img src="./public/black-mulch.png" width="600" height="400">
                     <div id="desc">Top Soil</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                    <img src="sunset_boat.jpg" width="600" height="400">
+                    <img src="./public/black-mulch.png" width="600" height="400">
                     <div id="desc">Mini Nuggets</div>
                 </div>
             </div>
