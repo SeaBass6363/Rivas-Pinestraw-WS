@@ -30,8 +30,8 @@ define( 'DB_HOST', 'localhost' );
   <h2>Order Form</h2>
          
         <form onsubmit="return(insertPerson())">
-            Name for Order: <input type="text" id="ordername"><br>
-            Address: <input type="text" id="address"><br>
+            Name for Order: <input type="texty" id="ordername"><br>
+            Address: <input type="texty" id="address"><br>
             Phone: <input type="texty" id="phone"><br>
             Product: <input type="texty" id="product"><br>
             Qty: <input type="texty" id="quantity"><br>
