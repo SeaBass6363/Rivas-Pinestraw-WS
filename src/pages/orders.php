@@ -42,15 +42,15 @@ define( 'DB_HOST', 'localhost' );
             }
         }
 
-        function deleteOrders(id) {
+        function deleteOrder(id) {
                 $.get("../ajax.php",{"cmd": "delete", "id" : id}, function(data) {
-                    $("#showOrder").html(data);
+                    $("#showOrders").html(data);
                 });
                 return(false);
             }
             function showOrders() {
                 $.get("../ajax.php",{"cmd": "show"}, function(data) {
-                    $("#showOrder").html(data);
+                    $("#showOrders").html(data);
                 });
                 return(false);
             }
