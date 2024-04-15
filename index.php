@@ -11,23 +11,15 @@
     <title>Rivas Pinestraw</title>
     
     <script>
-        $( document ).ready(function() {
-            $("#alert").on("click", createAlert);
-            $("#update").on("click", changeBodyText);
-             
-            function createAlert() {
-                alert("Hello World!");
+        function hideNav() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
             }
-            function changeBodyText() {
-                $("#body").html("<h2 id=text>I have changed!<h2>");
-            }
-                     
-        });
+        }
     </script>
-
-    <?php
-        require("./src/functions.php")   
-    ?>
 </head>
 
 <body>
