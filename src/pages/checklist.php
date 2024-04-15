@@ -24,10 +24,8 @@
   </div>
   <h2>Checklist Page</h2>
   <form>
-  <div>
-        <label for="about">About Me Page:</label>
+        <a href="./about.php">About Me Page</a>
         <input type="checkbox">
-    </div>
     <br>
     </form>
   <script>
