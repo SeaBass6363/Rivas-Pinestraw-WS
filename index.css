@@ -175,6 +175,11 @@ li {
 
 }
 
+.map-container {
+  height: 200px;
+  width: 300px;
+}
+
 .container {
   display: block;
   position: relative;
