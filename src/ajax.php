@@ -11,34 +11,34 @@ $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
       die("Connection failed: " . mysqli_connect_error());
     }
 
-function deleteEntry($id) {
+function deleteOrder($id) {
     global $conn;
 
-    $del = "DELETE FROM People WHERE id = '$id' ";
+    $del = "DELETE FROM Order WHERE id = '$id' ";
     $result = $conn->query($del);
 }
  
-function insertPerson($firstname, $lastname, $telephone) {
+function insertOrder($ordername, $address, $phone , $product, $service, $total) {
     global $conn;
    
-    $insert = "INSERT INTO People (id, firstname, lastname, telephone) VALUES (NULL, '$firstname', '$lastname', '$telephone')";
+    $insert = "INSERT INTO Order (id, ordername, address, phone, product, service, total) VALUES (NULL, '$ordername', '$address', '$phone' , '$product', '$service', '$total', null)";
     $result = $conn->query($insert);
 }
  
  
  
-function showPeople() {
+function showOrders() {
     global $conn;
 
-    $sql = "SELECT id, firstname, lastname, telephone FROM People";
+    $sql = "SELECT * FROM Order";
     $result = mysqli_query($conn, $sql);
  
     if (mysqli_num_rows($result) > 0) {
       // output data of each row
       while($row = mysqli_fetch_assoc($result)) {
         $id = $row["id"];
-        $delurl = "[<a href='' onclick=return(deleteEntry('$id'))>delete</a>]";
-        echo "id: " . $row["id"]. " - First Name: " . $row["firstname"]." - Last Name: " . $row["lastname"]." - Telephone Number: " . $row["telephone"]. " $delurl<br>";
+        $delurl = "[<a href='' onclick=return(deleteOrder('$id'))>delete</a>]";
+        echo "Qty: " . $row["quantity"]. " - Product: " . $row["product"]." - Service: " . $row["service"]." - Date Placed: " . $row["timestamp"]. " $delurl<br>";
       }
     } else {
       echo "0 results";
@@ -48,14 +48,14 @@ function showPeople() {
 $cmd = $_GET['cmd'];
  
 if($cmd == 'create' ) {
-    insertPerson($_GET['firstname'], $_GET['lastname'], $_GET['telephone']);
-    showPeople();
+    insertOrder($_GET['ordername'], $_GET['address'], $_GET['phone'], $_GET['product'], $_GET['quantity'], $_GET['service'], $_GET['total']);
+    showOrders();
 } else if($cmd == 'delete') {
     $id = $_GET['id'];
-    deleteEntry($id);
-    showPeople();
+    deleteOrder($id);
+    showOrders();
 } else if($cmd == 'show') {
-    showPeople();
+    showOrders();
 }
  
 
