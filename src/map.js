@@ -225,23 +225,6 @@ async function addMarker(toMap, title, location, address) {
 
 
 
-
-
-
-// Add an event listener to the dropdown menu to adjust map zoom level
-document.getElementById('radiusDropdown').addEventListener('change', function () {
-    const selectedRadius = parseInt(this.value); // Parse the selected radius as an integer
-
-    // Check if the selectedRadius is a valid number
-    if (!isNaN(selectedRadius)) {
-        // Adjust the map's zoom level based on the selected radius
-        const newZoomLevel = calculateZoomLevel(selectedRadius);
-
-        // Set the new zoom level for the map
-        map.setZoom(newZoomLevel);
-    }
-});
-
 // Function to calculate the zoom level based on the selected radius
 function calculateZoomLevel(radius) {
     // You can customize this formula based on your specific requirements
