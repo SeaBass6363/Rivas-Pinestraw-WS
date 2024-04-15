@@ -21,7 +21,7 @@ function deleteOrder($id) {
 function insertOrder($ordername, $address, $phone , $product, $service, $total) {
     global $conn;
    
-    $insert = "INSERT INTO Orders (id, ordername, address, phone, product, service, total) VALUES (NULL, '$ordername', '$address', '$phone' , '$product', '$service', '$total', null)";
+    $insert = "INSERT INTO Orders (id, ordername, address, phone, product, quantity, service, total) VALUES (NULL, '$ordername', '$address', '$phone' , '$product', '$quantity', '$service', '$total', '$timestamp')";
     $result = $conn->query($insert);
 }
  

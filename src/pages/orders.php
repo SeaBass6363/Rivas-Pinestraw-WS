@@ -14,7 +14,6 @@ define( 'DB_NAME', 'rivas-lands' );
 define( 'DB_USER', 'root' );
 define( 'DB_PASSWORD', 'CoolCat2024' );
 define( 'DB_HOST', 'localhost' );
-
 ?>
 <body>
   <div class="topnav" id="myTopnav">
