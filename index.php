@@ -8,10 +8,6 @@
     <link rel="stylesheet" href="./index.css">
     
     <title>Rivas Pinestraw</title>
-
-    <style>
-         
-    </style>
     
     <script>
         $( document ).ready(function() {
