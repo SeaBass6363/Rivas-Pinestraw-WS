@@ -29,6 +29,21 @@
         <input type="checkbox" checked="checked">
         <span class="checkmark"></span>
     </label>
+    <label class="container">
+        <a href="./about.php">About Us</a>
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+    </label>
+    <label class="container">
+        <a href="./about.php">About Us</a>
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+    </label>
+    <label class="container">
+        <a href="./about.php">About Us</a>
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+    </label>
     </form>
   <script>
         function hideNav() {
