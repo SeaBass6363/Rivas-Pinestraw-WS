@@ -168,6 +168,7 @@ label {
 }
 ul {
   display: flex;
+  overflow: wrap;
 }
 li {
   margin-left: auto;
