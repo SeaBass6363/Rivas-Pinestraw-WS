@@ -36,7 +36,7 @@ define( 'DB_HOST', 'localhost' );
             Product: <input type="texty" id="product"><br>
             Qty: <input type="texty" id="quantity"><br>
             Service: <input type="texty" id="service"><br>
-            Total: <input type="texty" id="Total"><br>
+            Total: <input type="texty" id="Total"><br><br>
             <input type="submit" value="Submit">
         </form>
          
