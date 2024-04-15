@@ -97,13 +97,12 @@ html {
   background: transparent;
 }
 #products {
-  display: flex;
-  float: right;
-  padding: 10px;
+  margin: auto;
+  border: 1px solid #ccc;
+  float:left;
   width: 180px;
   height: 380px;
-  margin: auto;
-  border: transparent;
+  padding: 10px;
 }
 
 #product:hover {
