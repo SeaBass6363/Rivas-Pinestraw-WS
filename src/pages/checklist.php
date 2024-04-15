@@ -24,7 +24,73 @@
   </div>
   <h2>Checklist Page</h2>
   <form>
-    <label class="container">
+    <ul>Database Usage
+        <li>
+            <a href="../../index.php">Homepage</a>
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </li>
+        <li>
+            <a href="../../index.php">Homepage</a>
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </li>
+        <li>
+            <a href="../../index.php">Homepage</a>
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </li>
+        <li>
+            <a href="../../index.php">Homepage</a>
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </li>
+    </ul>
+    <ul>Database Usage
+        <li>
+            <a href="../../index.php">Homepage</a>
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </li>
+        <li>
+            <a href="../../index.php">Homepage</a>
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </li>
+        <li>
+            <a href="../../index.php">Homepage</a>
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </li>
+        <li>
+            <a href="../../index.php">Homepage</a>
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </li>
+    </ul>
+    <ul>Database Usage
+        <li>
+            <a href="../../index.php">Homepage</a>
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </li>
+        <li>
+            <a href="../../index.php">Homepage</a>
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </li>
+        <li>
+            <a href="../../index.php">Homepage</a>
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </li>
+        <li>
+            <a href="../../index.php">Homepage</a>
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </li>
+    </ul>
+    <!-- <label class="container">
         <a href="../../index.php">Homepage</a>
         <input type="checkbox" checked="checked">
         <span class="checkmark"></span>
@@ -48,7 +114,7 @@
         <a href="./sign-on.php">Sign In</a>
         <input type="checkbox" checked="checked">
         <span class="checkmark"></span>
-    </label>
+    </label> -->
     </form>
   <script>
         function hideNav() {
