@@ -33,9 +33,15 @@
     <div id="entire">
         <div class="grid-x">
             <div id="navigation" class="cell small-12 medium-12 large-12 text-right">
-                <a id="update">Update Body</a> 
+                <a id="update">Home</a> 
                 <div style="border: 1px solid black; height: 30px; margin: 5px;"></div>
-                <a id="alert">Alert</a>
+                <a id="update">About Us</a> 
+                <div style="border: 1px solid black; height: 30px; margin: 5px;"></div>
+                <a id="alert">Order Form</a>
+                <div style="border: 1px solid black; height: 30px; margin: 5px;"></div>
+                <a id="alert">Checklist</a>
+                <div style="border: 1px solid black; height: 30px; margin: 5px;"></div>
+                <a id="alert">Contact Us</a>
             </div>
             <div id="header" class="cell small-12 medium-12 large-12 text-right">
                 <img id = img1 
