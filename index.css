@@ -167,7 +167,8 @@ label {
 
 }
 li {
-  padding: auto;
+  padding: 15px;
+  margin-left: auto;
 }
 
 .container {
