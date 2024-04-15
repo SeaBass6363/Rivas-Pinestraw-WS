@@ -23,7 +23,7 @@
       </a>
   </div>
   <h2>Checklist Page</h2>
-  <div class="checklist">
+  <form class="checklist">
         <a href="./about.php">About Me Page</a>
         <input type="checkbox">
         <br>
@@ -36,7 +36,7 @@
         <a href="./about.php">About Me Page</a>
         <input type="checkbox">
         <br>
-    </div>
+    </form>
   <script>
         function hideNav() {
             var x = document.getElementById("myTopnav");
