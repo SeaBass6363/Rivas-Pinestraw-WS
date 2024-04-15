@@ -22,6 +22,7 @@
           <i class="fa fa-bars"></i>
       </a>
   </div>
+  <br><br>
   <h2>Checklist Page</h2>
 <form>
     <ul >Database Usage
