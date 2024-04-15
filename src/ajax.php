@@ -18,10 +18,10 @@ function deleteOrder($id) {
     $result = $conn->query($del);
 }
  
-function insertOrder($ordername, $address, $phone , $product, $service, $total) {
+function insertOrder($ordername, $address, $phone , $product, $quantity, $service, $total) {
     global $conn;
    
-    $insert = "INSERT INTO Orders (id, ordername, address, phone, product, quantity, service, total) VALUES (NULL, '$ordername', '$address', '$phone' , '$product', '$quantity', '$service', '$total', '$timestamp')";
+    $insert = "INSERT INTO Orders (id, ordername, address, phone, product, quantity, service, total, timestamp) VALUES (NULL, '$ordername', '$address', '$phone' , '$product', '$quantity', '$service', '$total', CURRENT_TIMESTAMP)";
     $result = $conn->query($insert);
 }
  

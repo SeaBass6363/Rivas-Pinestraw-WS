@@ -58,10 +58,10 @@ define( 'DB_HOST', 'localhost' );
                 quantity = $("#quantity").val();
                 service = $("#service").val();
                 total = $("#total").val();
-                timestamp = $("#timestamp").val();
+                // timestamp = $("#timestamp").val();
 
                 if(ordername != '' && address != '' && phone != ''){
-                    $.get("../ajax.php",{"cmd": "create", "ordername" : ordername, "address" : address, "phone" : phone, "product" : product, "quantity" : quantity, "service" : service, "total" : total, "timestamp" : timestamp}, function(data) {
+                    $.get("../ajax.php",{"cmd": "create", "ordername" : ordername, "address" : address, "phone" : phone, "product" : product, "quantity" : quantity, "service" : service, "total" : total}, function(data) {
                     $("#showOrders").html(data);
                     });
                     return(false);
