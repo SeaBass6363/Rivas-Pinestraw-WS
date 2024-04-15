@@ -184,17 +184,13 @@ li {
   padding-right: 10px; 
   margin-bottom: 12px;
   cursor: pointer;
-  overflow: wrap;
-
 }
 
 /* Hide the browser's default checkbox */
 .container input {
   display: block;
   cursor: pointer;
-  margin: auto;
   padding-left: 5px;
-  overflow: wrap;
 }
 
 #map {
