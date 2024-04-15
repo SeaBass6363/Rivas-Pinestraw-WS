@@ -62,37 +62,50 @@
                     <a target="_blank" href="./src/pages/order-form.php">
                         <img src="./public/pinestraw.png" width="600" height="400">
                     </a>
-                    <div id="desc">Pine Straw</div>
+                    <div id="desc">
+                        <p>Pick Up: $4.50</p>
+                        <p>Delivery: $5.00</p>
+                        <p>Installation: $7.50</p>
+                    </div>
                 </div>
                 <div id="products" class="cell small-12 medium-4 large-4 text-right">
                     <a target="_blank" href="./src/pages/order-form.php">
                         <img src="./public/black-mulch.png" width="600" height="400">
                     </a>
-                    <div id="desc">Black Mulch</div>
+                    <div id="desc">
+                        <p>Pick Up: $3.20</p>
+                        <p>Delivery: $4.00</p>
+                        <p>Installation: $7.50</p>
+                    </div>
                 </div>
                 <div id="products" class="cell small-12 medium-4 large-4 text-right">
                     <a target="_blank" href="./src/pages/order-form.php">
                         <img src="./public/brown-mulch.png" width="600" height="400">
                     </a>
-                    <div id="desc">Brown Mulch</div>
+                    <div id="desc">
+                        <p>Pick Up: $3.20</p>
+                        <p>Delivery: $4.00</p>
+                        <p>Installation: $7.50</p>
+                    </div>
                 </div>
                 <div id="products" class="cell small-12 medium-4 large-4 text-right">
                     <a target="_blank" href="./src/pages/order-form.php">
                         <img src="./public/red-mulch.png" width="600" height="400">
                     </a>
-                    <div id="desc">Red Mulch</div>
-                </div>
-                <div id="products" class="cell small-12 medium-4 large-4 text-right">
-                    <a target="_blank" href="./src/pages/order-form.php">
-                        <img src="./public/pinestraw.png" width="600" height="400">
-                    </a>
-                    <div id="desc">Mini Nuggets</div>
+                    <div id="desc">
+                        <p>Pick Up: $3.20</p>
+                        <p>Delivery: $4.00</p>
+                        <p>Installation: $7.50</p>
+                    </div>
                 </div>
                 <div id="products" class="cell small-12 medium-4 large-4 text-right">
                     <a target="_blank" href="./src/pages/order-form.php">
                         <img src="./public/top-soil.png" width="600" height="400">
                     </a>
-                    <div id="desc">Top Soil</div>
+                    <div id="desc">
+                        <p>Pick Up: $2.60</p>
+                        <p>Delivery: $3.50</p>
+                    </div>
                 </div>
             </div>
         </div>
