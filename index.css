@@ -176,8 +176,7 @@ li {
 }
 
 .container {
-  display: flex;
-  position: relative;
+  display: flexbox;
   padding-left: 35px; 
   margin-bottom: 12px;
   cursor: pointer;
@@ -186,19 +185,16 @@ li {
 
 /* Hide the browser's default checkbox */
 .container input {
-  position:relative;
+  display: block;
   cursor: pointer;
 }
 
 #map {
-	  border-radius: 25px;
-	  width: 50%;
-    height: 50%;
+	  border-radius: 10px;
     background-color: #ddd;
     margin: auto;
 }
 
-/* #map-container {
-  height: 50px;
-  width: 50px;
-} */
+#map-container {
+ margin: auto;
+}
