@@ -74,19 +74,19 @@
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
                     <a target="_blank" href="./src/pages/order-form.php">
-                        <img src="./public/pinestraw.png" width="600" height="400">
+                        <img src="./public/black-mulch.png" width="600" height="400">
                     </a>
                     <div id="desc">Black Mulch</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
                     <a target="_blank" href="./src/pages/order-form.php">
-                        <img src="./public/pinestraw.png" width="600" height="400">
+                        <img src="./public/brown-mulch.png" width="600" height="400">
                     </a>
                     <div id="desc">Brown Mulch</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
                     <a target="_blank" href="./src/pages/order-form.php">
-                        <img src="./public/pinestraw.png" width="600" height="400">
+                        <img src="./public/red-mulch.png" width="600" height="400">
                     </a>
                     <div id="desc">Red Mulch</div>
                 </div>
@@ -98,7 +98,7 @@
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
                     <a target="_blank" href="./src/pages/order-form.php">
-                        <img src="./public/pinestraw.png" width="600" height="400">
+                        <img src="./public/top-soil.png" width="600" height="400">
                     </a>
                     <div id="desc">Top Soil</div>
                 </div>
