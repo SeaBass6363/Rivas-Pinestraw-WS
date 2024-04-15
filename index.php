@@ -5,63 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./js/jquery-3.7.1.min"></script>
     <link rel="stylesheet" href="./foundation/css/foundation.css">
+    <link rel="stylesheet" href="./index.css">
     
-    <title>Section 3</title>
+    <title>Rivas Pinestraw</title>
 
     <style>
-         .cell {
-                border: 1px solid black;
-            }
-            #navigation {
-                display: flex;
-                height: 40px;
-                border-bottom: none;
-                justify-content: end;
-            }
-            #navigation a {
-                color: black;
-                padding: 10px 16px;
-                text-align: center;
-            }
-            #link {
-                border-right: solid 1px black;
-                height: 5%;
-            }
-            #header {
-                height: 250px;
-                width: 100%;
-            }
-            #img1 {
-                width: 100%;  
-                height: 100%; 
-            }
-            #text {
-                margin: 10px;
-            }
-            #sidebar {
-                background: lightblue;
-                height: 600px;
-                padding: 10px;
-                text-align: left;
-                overflow: scroll;
-                border-right: none;
-            }
-            #body {
-                padding: 10px;
-                text-align: left;
-                overflow: hidden; 
-            }
-            #footer {
-                display: flex;
-                justify-content: space-between;
-                border-top: none;
-                align-items: center;
-                height: 50px;  
-                overflow: hidden; 
-            }
-            #entire {
-                margin: 10px;
-            }
+         
     </style>
     
     <script>
@@ -94,7 +43,7 @@
             </div>
             <div id="header" class="cell small-12 medium-12 large-12 text-right">
                 <img id = img1 
-                src=./sunset_boat.jpg>
+                src=./public/sunset_boat.jpg>
             </div>
         </div>
 
