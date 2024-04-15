@@ -39,7 +39,8 @@
 .topnav a.active {
   background-color: #ddd;
   color: black;
-  font-size: 36px;
+  font-size: 30px;
+  font-style: bold;
 }
 
 .topnav .icon {
