@@ -27,6 +27,7 @@ define( 'DB_HOST', 'localhost' );
           <i class="fa fa-bars"></i>
       </a>
   </div>
+  <br><br>
   <h2>Order Form</h2>
          
         <form onsubmit="return(insertPerson())">

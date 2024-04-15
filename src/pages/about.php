@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <h2>About Us Page</h2>
+    
   <div class="topnav" id="myTopnav">
       <a href="../../index.php" class="active">RIVAS PINESTRAW</a>
       <a href="./about.php">About Us</a>
@@ -23,6 +23,8 @@
           <i class="fa fa-bars"></i>
       </a>
   </div>
+  <br><br>
+  <h2>About Us Page</h2>
   <form>
     <h5>Who am I?</h5>
     <p>
