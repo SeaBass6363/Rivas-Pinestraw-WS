@@ -32,7 +32,7 @@
 
 <body>
     <div class="topnav" id="myTopnav">
-        <a href="./src/pages/index.php" class="active">RIVAS PINESTRAW</a>
+        <a href="./index.php" class="active">RIVAS PINESTRAW</a>
         <a href="./src/pages/about.php">About Us</a>
         <a href="./src/pages/order-form.php">Order Form</a>
         <a href="./src/pages/checklist.php">Checklist</a>
