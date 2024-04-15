@@ -25,94 +25,94 @@
   <h2>Checklist Page</h2>
   <form>
     <ul>Database Usage
-        <li>
+        <li class="container">
             <a href="../../index.php">Homepage</a>
-            <input type="checkbox" checked="checked">
+            <input type="checkbox">
             <span class="checkmark"></span>
         </li>
-        <li>
+        <li class="container">
             <a href="../../index.php">Homepage</a>
-            <input type="checkbox" checked="checked">
+            <input type="checkbox">
             <span class="checkmark"></span>
         </li>
-        <li>
+        <li class="container">
             <a href="../../index.php">Homepage</a>
-            <input type="checkbox" checked="checked">
+            <input type="checkbox">
             <span class="checkmark"></span>
         </li>
-        <li>
+        <li class="container">
             <a href="../../index.php">Homepage</a>
-            <input type="checkbox" checked="checked">
-            <span class="checkmark"></span>
-        </li>
-    </ul>
-    <ul>Database Usage
-        <li>
-            <a href="../../index.php">Homepage</a>
-            <input type="checkbox" checked="checked">
-            <span class="checkmark"></span>
-        </li>
-        <li>
-            <a href="../../index.php">Homepage</a>
-            <input type="checkbox" checked="checked">
-            <span class="checkmark"></span>
-        </li>
-        <li>
-            <a href="../../index.php">Homepage</a>
-            <input type="checkbox" checked="checked">
-            <span class="checkmark"></span>
-        </li>
-        <li>
-            <a href="../../index.php">Homepage</a>
-            <input type="checkbox" checked="checked">
+            <input type="checkbox">
             <span class="checkmark"></span>
         </li>
     </ul>
     <ul>Database Usage
-        <li>
+        <li class="container">
             <a href="../../index.php">Homepage</a>
-            <input type="checkbox" checked="checked">
+            <input type="checkbox">
             <span class="checkmark"></span>
         </li>
-        <li>
+        <li class="container"> 
             <a href="../../index.php">Homepage</a>
-            <input type="checkbox" checked="checked">
+            <input type="checkbox">
             <span class="checkmark"></span>
         </li>
-        <li>
+        <li class="container">
             <a href="../../index.php">Homepage</a>
-            <input type="checkbox" checked="checked">
+            <input type="checkbox">
             <span class="checkmark"></span>
         </li>
-        <li>
+        <li class="container">
             <a href="../../index.php">Homepage</a>
-            <input type="checkbox" checked="checked">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </li>
+    </ul>
+    <ul>Database Usage
+        <li class="container">
+            <a href="../../index.php">Homepage</a>
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </li>
+        <li class="container">
+            <a href="../../index.php">Homepage</a>
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </li>
+        <li class="container">
+            <a href="../../index.php">Homepage</a>
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </li>
+        <li class="container">
+            <a href="../../index.php">Homepage</a>
+            <input type="checkbox">
             <span class="checkmark"></span>
         </li>
     </ul>
     <!-- <label class="container">
         <a href="../../index.php">Homepage</a>
-        <input type="checkbox" checked="checked">
+        <input type="checkbox">
         <span class="checkmark"></span>
     </label>
     <label class="container">
         <a href="./description.php">Description Page</a>
-        <input type="checkbox" checked="checked">
+        <input type="checkbox">
         <span class="checkmark"></span>
     </label>
     <label class="container">
     <a href="./order-form.php">Order Form</a>
-        <input type="checkbox" checked="checked">
+        <input type="checkbox">
         <span class="checkmark"></span>
     </label>
     <label class="container">
         <a href="./sign-on.php">Sign In</a>
-        <input type="checkbox" checked="checked">
+        <input type="checkbox">
         <span class="checkmark"></span>
     </label>
     <label class="container">
         <a href="./sign-on.php">Sign In</a>
-        <input type="checkbox" checked="checked">
+        <input type="checkbox">
         <span class="checkmark"></span>
     </label> -->
     </form>
