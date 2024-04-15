@@ -91,6 +91,7 @@
   padding: 10px;
   text-align:center;
   overflow: hidden; 
+  margin: auto;
 }
 #products {
   margin: auto;
