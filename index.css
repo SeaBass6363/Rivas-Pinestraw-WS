@@ -117,6 +117,7 @@
 }
 #footer {
   display: flex;
+  color: white;
   justify-content: space-between;
   border-top: none;
   align-items: center;
