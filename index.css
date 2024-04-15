@@ -95,6 +95,26 @@
   text-align: left;
   overflow: hidden; 
 }
+#product {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+#product:hover {
+  border: 1px solid #777;
+}
+
+#product img {
+  width: 100%;
+  height: auto;
+}
+
+#desc {
+  padding: 15px;
+  text-align: center;
+}
 #footer {
   display: flex;
   justify-content: space-between;

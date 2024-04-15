@@ -67,22 +67,28 @@
             <div id="body" class="cell small-12 medium-8 large-8 text-right">
                 <h1 id="text">Products</h1>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                    <h5 id="text">Long Needle Pine Straw</h5>
+                    <img src="sunset_boat.jpg" width="600" height="400">
+                    <div id="desc">Long Needle Pine Straw</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                <h5 id="text">Short Needle Pine Straw</h5>
+                    <img src="sunset_boat.jpg" width="600" height="400">
+                    <div id="desc">Short Needle Pine Straw</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                <h5 id="text">Mulch</h5>
+                    <img src="sunset_boat.jpg" width="600" height="400">
+                    <div id="desc">Mulch</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                <h5 id="text">Wheatstraw</h5>
+                    <img src="sunset_boat.jpg" width="600" height="400">
+                    <div id="desc">Wheatstraw</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                <h5 id="text">Top Soil</h5>
+                    <img src="sunset_boat.jpg" width="600" height="400">
+                    <div id="desc">Top Soil</div>
                 </div>
                 <div id="product" class="cell small-12 medium-4 large-4 text-right">
-                <h5 id="text">Mini Nuggets</h5>
+                    <img src="sunset_boat.jpg" width="600" height="400">
+                    <div id="desc">Mini Nuggets</div>
                 </div>
             </div>
         </div>
