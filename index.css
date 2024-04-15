@@ -162,6 +162,10 @@ input {
 ul {
   display: block;
 }
+input [type="checked"] {
+  padding: 0px;
+  margin: 0px;
+}
 
 #map {
 	  border-radius: 10px;
