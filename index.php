@@ -32,7 +32,10 @@
 <body>
     <div id="entire">
         <div class="grid-x">
-            <div id="navigation" class="cell small-12 medium-12 large-12 text-right">
+            <div id="title_page" class="cell small-12 medium-4 large-4 text-right">
+                <h3>RIVAS PINESTRAW</h3>
+            </div>
+            <div id="navigation" class="cell small-12 medium-8 large-8 text-right">
                 <a href="./index.php">Home</a> 
                 <div style="border: 1px solid black; height: 30px; margin: 5px;"></div>
                 <a href="">About Us</a> 

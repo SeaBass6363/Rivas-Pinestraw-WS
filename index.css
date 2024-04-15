@@ -1,6 +1,12 @@
 .cell {
   border: 1px solid black;
 }
+#title_page {
+  display: flex;
+  height: 40px;
+  border-bottom: none;
+  justify-content:left
+}
 #navigation {
   display: flex;
   height: 40px;
