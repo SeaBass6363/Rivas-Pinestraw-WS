@@ -23,10 +23,12 @@
       </a>
   </div>
   <h2>Checklist Page</h2>
+  <form>
     <label class="container">One
         <input type="checkbox" checked="checked">
         <span class="checkmark"></span>
     </label>
+    </form>
   <script>
         function hideNav() {
             var x = document.getElementById("myTopnav");
