@@ -52,13 +52,25 @@
 
         <div class="grid-x">
             <div id="sidebar" class="cell small-12 medium-4 large-4 text-right">
+                <h1>For all your landscaping needs!</h1>
                 <p id="text">
-                    
+                    Rivas Pinestraw and landscaping services is located at 3063 Braselton Hwy, Dacula, GA 30519
                 </p>
+                <p id="text">
+                    Call 7 days a week 7 am to 7 pm for pinestraw or mulch installation
+                </p>
+                <br>
+                <div id = "map-container">
+                    map
+                </div>
             </div>
             <div id="body" class="cell small-12 medium-8 large-8 text-right">
-                <h2 id="text">Content Page 1</h2>
-                <p id="text">This is the current time and date (Refresh to get new current time and date):<br><?php currentDateTime(); ?></p>
+                <h1 id="text">Products</h1>
+                <div id="long-pine">Long Needle Pine Straw</div>
+                <div id="short-pine">Short Needle Pine Straw</div>
+                <div id="red-mulch">Red Mulch</div>
+                <div id="brown-mulch">Brown Mulch</div>
+                <div id="black-mulch">Black Mulch</div>
             </div>
         </div>
         <div class="grid-x">
