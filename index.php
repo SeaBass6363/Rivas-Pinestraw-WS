@@ -66,37 +66,37 @@
             </div>
             <div id="body" class="cell small-12 medium-8 large-8 text-right">
                 <h1 id="text">Products</h1>
-                <div id="product" class="cell small-12 medium-4 large-4 text-right">
+                <div id="products" class="cell small-12 medium-4 large-4 text-right">
                     <a target="_blank" href="./src/pages/order-form.php">
                         <img src="./public/pinestraw.png" width="600" height="400">
                     </a>
                     <div id="desc">Pine Straw</div>
                 </div>
-                <div id="product" class="cell small-12 medium-4 large-4 text-right">
+                <div id="products" class="cell small-12 medium-4 large-4 text-right">
                     <a target="_blank" href="./src/pages/order-form.php">
                         <img src="./public/black-mulch.png" width="600" height="400">
                     </a>
                     <div id="desc">Black Mulch</div>
                 </div>
-                <div id="product" class="cell small-12 medium-4 large-4 text-right">
+                <div id="products" class="cell small-12 medium-4 large-4 text-right">
                     <a target="_blank" href="./src/pages/order-form.php">
                         <img src="./public/brown-mulch.png" width="600" height="400">
                     </a>
                     <div id="desc">Brown Mulch</div>
                 </div>
-                <div id="product" class="cell small-12 medium-4 large-4 text-right">
+                <div id="products" class="cell small-12 medium-4 large-4 text-right">
                     <a target="_blank" href="./src/pages/order-form.php">
                         <img src="./public/red-mulch.png" width="600" height="400">
                     </a>
                     <div id="desc">Red Mulch</div>
                 </div>
-                <div id="product" class="cell small-12 medium-4 large-4 text-right">
+                <div id="products" class="cell small-12 medium-4 large-4 text-right">
                     <a target="_blank" href="./src/pages/order-form.php">
                         <img src="./public/pinestraw.png" width="600" height="400">
                     </a>
                     <div id="desc">Mini Nuggets</div>
                 </div>
-                <div id="product" class="cell small-12 medium-4 large-4 text-right">
+                <div id="products" class="cell small-12 medium-4 large-4 text-right">
                     <a target="_blank" href="./src/pages/order-form.php">
                         <img src="./public/top-soil.png" width="600" height="400">
                     </a>
