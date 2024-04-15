@@ -83,12 +83,9 @@
   margin: 10px;
 }
 #sidebar {
-  background: lightblue;
   height: 600px;
   padding: 10px;
   text-align: left;
-  overflow: scroll;
-  border-right: none;
 }
 #body {
   padding: 10px;
