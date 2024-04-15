@@ -185,12 +185,15 @@ li {
 
 /* Hide the browser's default checkbox */
 .container input {
-  display: block;
+  display: flex;
   cursor: pointer;
+  margin-top: 5px;
 }
 
 #map {
 	  border-radius: 10px;
+    height: auto;
+    width: auto;
     background-color: #ddd;
     margin: auto;
 }
