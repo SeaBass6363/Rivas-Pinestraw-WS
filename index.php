@@ -32,16 +32,17 @@
 
 <body>
     <div id="entire">
-        <div class="grid-x">
         <div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
+                <a href="./index.php" class="active">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#order">Order Form</a>
+                <a href="#checklist">Checklist</a>
+                <a href="#contact">Contact Us</a>
+                <a href="javascript:void(0);" class="icon" onclick="hideNav()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        <div class="grid-x">
             <div id="header" class="cell small-12 medium-12 large-12 text-right">
                 <img id = img1 
                 src=./public/p_long_img1.jpg>
@@ -75,7 +76,7 @@
         </div>
     </div>
     <script>
-function myFunction() {
+function hideNav() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
