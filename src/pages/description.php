@@ -26,56 +26,40 @@
   <br><br>
   <h2>Description</h2>
   <form>
-    <h5>Who am I?</h5>
+    <h5>Who are the Users</h5>
     <p>
-        My name is Hardwood. I am a senior Computer Science major 
-        at Georgia State University. Before going to college, I
-        was in the military. I served four years as an Aviation
-        ordnanceman on the KC130J. I enjoyed my time in and am 
-        excited for what comes next. 
+      Clients who want to buy landscaping products or have them 
+      delivered or installed
     </p>
     <br><br>
-    <h5>Project Description</h5>
+    <h5>What is it that you want your users to get out of using the site?</h5>
     <p>
-        I made a website for a pine straw company. Before joinging
-        the Marines, I worked in a site that sold landscaping 
-        supplies but specialized in pine straw. This website was
-        made with the company in mind. I created it, thinking
-        on what was useful for the company and the clients.
+      Landscape Supply information: If they are in an area that we 
+      serve; they can fill out a form to request a delivery or 
+      installation of our supplies. Which we can log in to get the 
+      orders to call them back and schedule a date for the service. 
+      They will also get a static overview of the products and services 
+      we provide.
     </p>
     <br><br>
-    <h5>Description of technology used</h5>
+    <h5>What problem are you trying to solve for the users of the site?</h5>
     <p>
-        For this website, I began using React but had trouble
-        putting the app on AWS so I decided to stick with what we
-        work with this semester. The technologies I used were php,
-        javascript, jquery, html, css, foundation framework, and the 
-        awesome font library.
-    </p>
-    <p>
-        html, css, the foundation framework, and the awesome font 
-        library was used to give my website some structure and style.
-        The awesome font family was specificlly used for the navigation
-        bar, so it can minimize and turn into the bars.
-    </p>
-    <p>
-        php, javascript, and jquery was used to give my site some interactivety.
-    </p>
-    <p>
-        I used phpMyAdmin and DBmaria to store data
+      The site clients can see all the products and services the company 
+      provides to better assess if they want to go with us or another 
+      company. This site will take a lot the guesswork out of what is 
+      provided at the company and whether or not we service their 
+      location for delivery or installation. They can also set up a 
+      service without even having to call or go to the location in person. 
     </p>
     <br><br>
-    <h5>What have I learned?</h5>
+    <h5>What are the actions that you want the users to take once they have used your site?</h5>
     <p>
-        I learned how useful php can be when creating web applications.
-        This is the first time I have coded in php. One thing that I
-        found useful was the use of cookies. I never really gave it 
-        much thought on how they allow users to seamlessly interact in
-        a site without having to login again. Though, the most important
-        thing I believe I learned was that hosting a website on a virtual
-        instance has a lot of unforseen naunces that I did not expect. 
-        You really have to learn to pivit at times to be able to make 
-        certain things in a timely manner.
+        The actions the users must take are: Seeing an overview of the 
+        products and services provided. Getting directions to the 
+        company (if wanting to pick up) or choosing a product to be 
+        delivered and/or installed at their location Get an alert if 
+        they are not within of radius of the service. Fill out a form 
+        to set up the service.
     </p>
     <br><br>
 

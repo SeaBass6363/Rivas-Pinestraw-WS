@@ -31,76 +31,184 @@
             <input type="checkbox">
         </li>
         <li>
-            <a href="../../index.php">Homepage</a>
+            <a href="./about.php">About Us</a>
             <input type="checkbox">
         </li>
+        <li>
+            <a href="./order-form.php">Order Form</a>
+            <input type="checkbox" Checked>
+        </li>
+        <li>
+            <a href="./description.php">Description</a>
+            <input type="checkbox">
+        </li>
+        <li>
+            <a href="./sign-on.php">Sign In</a>
+            <input type="checkbox" Checked>
+        </li>
+        <li>
+            <a href="./orders.php">Membership Area</a>
+            <input type="checkbox" Checked>
+        </li>
+    </ul>
+
+    <ul >Ajax Usage
         <li>
             <a href="../../index.php">Homepage</a>
             <input type="checkbox">
         </li>
         <li>
+            <a href="./about.php">About Us</a>
+            <input type="checkbox">
+        </li>
+        <li>
+            <a href="./order-form.php">Order Form</a>
+            <input type="checkbox" Checked>
+        </li>
+        <li>
+            <a href="./description.php">Description</a>
+            <input type="checkbox">
+        </li>
+        <li>
+            <a href="./sign-on.php">Sign In</a>
+            <input type="checkbox" Checked>
+        </li>
+        <li>
+            <a href="./orders.php">Membership Area</a>
+            <input type="checkbox" Checked>
+        </li>
+    </ul>
+
+    <ul >Theme
+        <li>
             <a href="../../index.php">Homepage</a>
+            <input type="checkbox" Checked>
+        </li>
+        <li>
+            <a href="./about.php">About Us</a>
+            <input type="checkbox" Checked>
+        </li>
+        <li>
+            <a href="./order-form.php">Order Form</a>
+            <input type="checkbox" Checked>
+        </li>
+        <li>
+            <a href="./description.php">Description</a>
+            <input type="checkbox" Checked>
+        </li>
+        <li>
+            <a href="./sign-on.php">Sign In</a>
+            <input type="checkbox" Checked>
+        </li>
+        <li>
+            <a href="./orders.php">Membership Area</a>
+            <input type="checkbox" Checked>
+        </li>
+    </ul>
+    <ul >New Library Usage
+        <li>
+            <a href="../../index.php">Homepage</a>
+            <input type="checkbox" Checked>
+        </li>
+        <li>
+            <a href="./about.php">About Us</a>
+            <input type="checkbox">
+        </li>
+        <li>
+            <a href="./order-form.php">Order Form</a>
+            <input type="checkbox">
+        </li>
+        <li>
+            <a href="./description.php">Description</a>
+            <input type="checkbox">
+        </li>
+        <li>
+            <a href="./sign-on.php">Sign In</a>
+            <input type="checkbox">
+        </li>
+        <li>
+            <a href="./orders.php">Membership Area</a>
             <input type="checkbox">
         </li>
     </ul>
-    <ul>Database Usage
+    <ul >Javascript Usage
+        <li>
+            <a href="../../index.php">Homepage</a>
+            <input type="checkbox" Checked>
+        </li>
+        <li>
+            <a href="./about.php">About Us</a>
+            <input type="checkbox">
+        </li>
+        <li>
+            <a href="./order-form.php">Order Form</a>
+            <input type="checkbox" Checked>
+        </li>
+        <li>
+            <a href="./description.php">Description</a>
+            <input type="checkbox">
+        </li>
+        <li>
+            <a href="./sign-on.php">Sign In</a>
+            <input type="checkbox" Checked>
+        </li>
+        <li>
+            <a href="./orders.php">Membership Area</a>
+            <input type="checkbox" Checked>
+        </li>
+    </ul>
+    <ul >Membership Area
         <li>
             <a href="../../index.php">Homepage</a>
             <input type="checkbox">
         </li>
-        <li> 
-            <a href="../../index.php">Homepage</a>
+        <li>
+            <a href="./about.php">About Us</a>
             <input type="checkbox">
         </li>
         <li>
-            <a href="../../index.php">Homepage</a>
+            <a href="./order-form.php">Order Form</a>
             <input type="checkbox">
         </li>
         <li>
+            <a href="./description.php">Description</a>
+            <input type="checkbox">
+        </li>
+        <li>
+            <a href="./sign-on.php">Sign In</a>
+            <input type="checkbox">
+        </li>
+        <li>
+            <a href="./orders.php">Membership Area</a>
+            <input type="checkbox" Checked>
+        </li>
+    </ul>
+    <ul >General User
+        <li>
             <a href="../../index.php">Homepage</a>
+            <input type="checkbox" Checked>
+        </li>
+        <li>
+            <a href="./about.php">About Us</a>
+            <input type="checkbox" Checked>
+        </li>
+        <li>
+            <a href="./order-form.php">Order Form</a>
+            <input type="checkbox" Checked>
+        </li>
+        <li>
+            <a href="./description.php">Description</a>
+            <input type="checkbox" Checked>
+        </li>
+        <li>
+            <a href="./sign-on.php">Sign In</a>
+            <input type="checkbox" Checked>
+        </li>
+        <li>
+            <a href="./orders.php">Membership Area</a>
             <input type="checkbox">
         </li>
     </ul>
-    <ul>Database Usage
-        <li>
-            <a href="../../index.php">Homepage</a>
-            <input type="checkbox">
-        </li>
-        <li>
-            <a href="../../index.php">Homepage</a>
-            <input type="checkbox">
-        </li>
-        <li>
-            <a href="../../index.php">Homepage</a>
-            <input type="checkbox">
-        </li>
-        <li>
-            <a href="../../index.php">Homepage</a>
-            <input type="checkbox">
-        </li>
-    </ul>
-    </form>
-    <!-- <label class="cell small-1 medium-4 large-4 text-right"">
-        <a href="../../index.php">Homepage</a>
-        <input type="checkbox">
-    </label>
-    <label class="container">
-        <a href="./description.php">Description Page</a>
-        <input type="checkbox">
-    </label>
-    <label class="container">
-    <a href="./order-form.php">Order Form</a>
-        <input type="checkbox">
-    </label>
-    <label class="container">
-        <a href="./sign-on.php">Sign In</a>
-        <input type="checkbox">
-    </label>
-    <label class="container">
-        <a href="./sign-on.php">Sign In</a>
-        <input type="checkbox">
-    </label> -->
-    
   <script>
         function hideNav() {
             var x = document.getElementById("myTopnav");
