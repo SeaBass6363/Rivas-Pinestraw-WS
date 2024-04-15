@@ -168,7 +168,7 @@ label {
 }
 ul {
   display: flex;
-  overflow: wrap;
+
 }
 li {
   margin-left: auto;
@@ -181,6 +181,7 @@ li {
   padding-left: 35px; 
   margin-bottom: 12px;
   cursor: pointer;
+  overflow: wrap;
 
 }
 
