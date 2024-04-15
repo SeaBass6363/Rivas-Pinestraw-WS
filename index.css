@@ -86,12 +86,13 @@
   height: 600px;
   padding: 10px;
   text-align: left;
+  background: transparent;
 }
 #body {
   padding: 10px;
   text-align:center;
   overflow: hidden; 
-  
+  background: transparent;
 }
 #products {
   margin: auto;
