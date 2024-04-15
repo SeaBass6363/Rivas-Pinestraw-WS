@@ -98,6 +98,7 @@ html {
 }
 #products {
   display: flex;
+  float: right;
   padding: 10px;
   width: 180px;
   height: 380px;
