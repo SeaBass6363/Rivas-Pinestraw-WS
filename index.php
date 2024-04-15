@@ -52,8 +52,8 @@
                     Call 7 days a week 7 am to 7 pm for pinestraw or mulch installation
                 </p>
                 <br>
-                <div id="map-container" class="cell small-12 medium-4 large-4 text-right">
-                    <div id="map"></div>
+                <div id="map-container" >
+                    <div id="map" class="cell small-12 medium-4 large-4 text-right"></div>
                 </div>
             </div>
             <div id="body" class="cell small-12 medium-8 large-8 text-right">
