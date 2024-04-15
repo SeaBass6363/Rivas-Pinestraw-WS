@@ -103,8 +103,8 @@
             </div>
         </div>
     </div>
-    <script src="./src/map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkW0iGM8DniteJO7xa_yEuJseeFGQJLBM&libraries=geometry&callback=initMap" async defer></script>
+    <!-- <script src="./src/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkW0iGM8DniteJO7xa_yEuJseeFGQJLBM&libraries=geometry&callback=initMap" async defer></script> -->
 
 </body>
 </html>
