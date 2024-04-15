@@ -30,7 +30,7 @@ function insertOrder($ordername, $address, $phone , $product, $service, $total) 
 function showOrders() {
     global $conn;
 
-    $sql = "SELECT * FROM 'Order'";
+    $sql = "SELECT id, ordername, address, phone, product, quantity, service, total, timestamp FROM Order";
     $result = mysqli_query($conn, $sql);
  
     if (mysqli_num_rows($result) > 0) {
