@@ -168,11 +168,13 @@ label {
 }
 ul {
   display: flex;
+  overflow: wrap;
 
 }
 li {
   margin-left: auto;
   display: flex;
+  overflow: wrap;
 
 }
 
@@ -191,6 +193,7 @@ li {
   cursor: pointer;
   margin-top: 5px;
   align-content: flex-start;
+  overflow: wrap;
 }
 
 #map {
