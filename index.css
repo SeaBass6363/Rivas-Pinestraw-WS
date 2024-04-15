@@ -176,7 +176,7 @@ li {
 }
 
 .container {
-  display: flexbox;
+  display: block;
   padding-left: 35px; 
   margin-bottom: 12px;
   cursor: pointer;
@@ -188,12 +188,13 @@ li {
   display: flex;
   cursor: pointer;
   margin-top: 5px;
+  align-content: flex-start;
 }
 
 #map {
 	  border-radius: 10px;
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
     background-color: #ddd;
     margin: auto;
 }
