@@ -33,9 +33,8 @@ function showOrders() {
     $sql = "SELECT id, ordername, address, phone, product, quantity, service, total, timestamp FROM Order";
     $result = mysqli_query($conn, $sql);
 
-    echo"Connected";
-
     if (mysqli_num_rows($result) > 0) {
+      echo"Connected2";
       // output data of each row
       while($row = mysqli_fetch_assoc($result)) {
         $id = $row["id"];
