@@ -33,15 +33,15 @@
     <div id="entire">
         <div class="grid-x">
             <div id="navigation" class="cell small-12 medium-12 large-12 text-right">
-                <a id="update">Home</a> 
+                <a href="./index.php">Home</a> 
                 <div style="border: 1px solid black; height: 30px; margin: 5px;"></div>
-                <a id="update">About Us</a> 
+                <a href="">About Us</a> 
                 <div style="border: 1px solid black; height: 30px; margin: 5px;"></div>
-                <a id="alert">Order Form</a>
+                <a href="">Order Form</a>
                 <div style="border: 1px solid black; height: 30px; margin: 5px;"></div>
-                <a id="alert">Checklist</a>
+                <a href="">Checklist</a>
                 <div style="border: 1px solid black; height: 30px; margin: 5px;"></div>
-                <a id="alert">Contact Us</a>
+                <a href="">Contact Us</a>
             </div>
             <div id="header" class="cell small-12 medium-12 large-12 text-right">
                 <img id = img1 
