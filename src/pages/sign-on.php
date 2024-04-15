@@ -44,7 +44,7 @@ define( 'DB_HOST', 'localhost' );
   mysqli_close($conn);
 }
 ?>
-<body>
+<body id="entire">
   <div class="topnav" id="myTopnav">
       <a href="../../index.php" class="active">RIVAS PINESTRAW</a>
       <a href="./about.php">About Us</a>

@@ -15,7 +15,7 @@ define( 'DB_USER', 'root' );
 define( 'DB_PASSWORD', 'CoolCat2024' );
 define( 'DB_HOST', 'localhost' );
 ?>
-<body>
+<body id="entire">
   <div class="topnav" id="myTopnav">
       <a href="../../index.php" class="active">RIVAS PINESTRAW</a>
       <a href="./about.php">About Us</a>
