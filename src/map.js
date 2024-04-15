@@ -1,3 +1,6 @@
+//google API key
+const apiKey = 'AIzaSyAkW0iGM8DniteJO7xa_yEuJseeFGQJLBM'
+
 //Main Page Map
 let map;
 let currentMarker;
@@ -8,35 +11,6 @@ function initMap() {
         zoom: 12, 
     };
     map = new google.maps.Map(document.getElementById('map'), mapOptions);
-}
-
-
-async function searchZipCode() {
-const zipCode = document.getElementById('zip-code').value;
-if (zipCode) {
-    try {
-        const location = await geocodeZipCode(zipCode);
-        
-        
-        if (currentMarker) {
-            currentMarker.setMap(null);
-        }
-
-        
-        currentMarker = new google.maps.Marker({
-            map: map,
-            position: location,
-            title: 'Zip Code Location',
-        });
-
-        map.setCenter(location);
-    } catch (error) {
-        console.error('Error geocoding zip code:', error);
-        alert('Invalid zip code or unable to find location.');
-    }
-} else {
-    alert('Please enter a zip code.');
-}
 }
 		
 		 

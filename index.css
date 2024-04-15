@@ -166,9 +166,13 @@ label {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); Light box shadow */ 
 
 }
+ul {
+  display: flex;
+}
 li {
-  padding: 15px;
   margin-left: auto;
+  display: flex;
+
 }
 
 .container {
