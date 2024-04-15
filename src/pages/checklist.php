@@ -23,98 +23,81 @@
       </a>
   </div>
   <h2>Checklist Page</h2>
-<div class="grid-x">
+<form>
     <ul >Database Usage
-        <li class="cell small-1 medium-1 large-1">
+        <li>
             <a href="../../index.php">Homepage</a>
             <input type="checkbox">
-            <span class="checkmark"></span>
         </li>
-        <li class="cell small-1 medium-1 large-1">
+        <li>
             <a href="../../index.php">Homepage</a>
             <input type="checkbox">
-            <span class="checkmark"></span>
         </li>
-        <li class="cell small-1 medium-1 large-1">
+        <li>
             <a href="../../index.php">Homepage</a>
             <input type="checkbox">
-            <span class="checkmark"></span>
         </li>
-        <li class="cell small-1 medium-1 large-1">
+        <li>
             <a href="../../index.php">Homepage</a>
             <input type="checkbox">
-            <span class="checkmark"></span>
         </li>
     </ul>
     <ul>Database Usage
-        <li class="cell small-1 medium-1 large-1">
+        <li>
             <a href="../../index.php">Homepage</a>
             <input type="checkbox">
-            <span class="checkmark"></span>
         </li>
-        <li class="cell small-1 medium-1 large-1"> 
+        <li> 
             <a href="../../index.php">Homepage</a>
             <input type="checkbox">
-            <span class="checkmark"></span>
         </li>
-        <li class="cell small-1 medium-1 large-1">
+        <li>
             <a href="../../index.php">Homepage</a>
             <input type="checkbox">
-            <span class="checkmark"></span>
         </li>
-        <li class="cell small-1 medium-1 large-1">
+        <li>
             <a href="../../index.php">Homepage</a>
             <input type="checkbox">
-            <span class="checkmark"></span>
         </li>
     </ul>
     <ul>Database Usage
-        <li class="cell small-1 medium-1 large-1">
+        <li>
             <a href="../../index.php">Homepage</a>
             <input type="checkbox">
-            <span class="checkmark"></span>
         </li>
-        <li class="cell small-1 medium-1 large-1">
+        <li>
             <a href="../../index.php">Homepage</a>
             <input type="checkbox">
-            <span class="checkmark"></span>
         </li>
-        <li class="cell small-1 medium-1 large-1">
+        <li>
             <a href="../../index.php">Homepage</a>
             <input type="checkbox">
-            <span class="checkmark"></span>
         </li>
-        <li class="cell small-1 medium-1 large-1">
+        <li>
             <a href="../../index.php">Homepage</a>
             <input type="checkbox">
-            <span class="checkmark"></span>
         </li>
     </ul>
-    </div>
+    </form>
     <!-- <label class="cell small-1 medium-4 large-4 text-right"">
         <a href="../../index.php">Homepage</a>
         <input type="checkbox">
-        <span class="checkmark"></span>
     </label>
     <label class="container">
         <a href="./description.php">Description Page</a>
         <input type="checkbox">
-        <span class="checkmark"></span>
     </label>
     <label class="container">
     <a href="./order-form.php">Order Form</a>
         <input type="checkbox">
-        <span class="checkmark"></span>
     </label>
     <label class="container">
         <a href="./sign-on.php">Sign In</a>
         <input type="checkbox">
-        <span class="checkmark"></span>
     </label>
     <label class="container">
         <a href="./sign-on.php">Sign In</a>
         <input type="checkbox">
-        <span class="checkmark"></span>
     </label> -->
     
   <script>
