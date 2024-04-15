@@ -99,6 +99,8 @@ html {
 #products {
   margin: auto;
   padding: 10px;
+  width: 180px;
+  height: 380px;
 }
 
 #product:hover {
