@@ -124,8 +124,7 @@
   align-items: center;
   height: 50px;  
   overflow: hidden; 
-  background-image: url("./public/grass.jpg");
-  background-position: bottom;
+  background: transparent;
 }
 form {
   max-width: 600px;
