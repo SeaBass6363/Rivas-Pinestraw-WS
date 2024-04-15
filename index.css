@@ -179,7 +179,7 @@ li {
 }
 
 .container {
-  display: block;
+  display: flex;
   padding-left: 35px; 
   margin-bottom: 12px;
   cursor: pointer;
@@ -189,7 +189,7 @@ li {
 
 /* Hide the browser's default checkbox */
 .container input {
-  display: flex;
+  display: block;
   cursor: pointer;
   margin-top: 5px;
   align-content: flex-start;
