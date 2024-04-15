@@ -24,7 +24,8 @@
   </div>
   <h2>Checklist Page</h2>
   <form>
-    <label class="container">One
+    <label class="container">
+        <a href="./about.php">About Us</a>
         <input type="checkbox" checked="checked">
         <span class="checkmark"></span>
     </label>
