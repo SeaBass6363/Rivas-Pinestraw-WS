@@ -31,7 +31,7 @@ define( 'DB_HOST', 'localhost' );
   <br><br>
   <h2>Order Form</h2>
          
-        <form onsubmit="return(insertPerson())">
+        <form onsubmit="return(insertPerson())" oninput="getTotal()">
             Name for Order: <input type="texty" id="ordername"><br>
             Address: <input type="texty" id="address"><br>
             Phone: <input type="texty" id="phone"><br>
