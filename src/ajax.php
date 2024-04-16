@@ -79,7 +79,7 @@ if($cmd == 'create' ) {
 } else if($cmd == 'show') {
     showOrders();
     echo"<br><br>Orders Recieved";
-    ordersTable();
+    //ordersTable();
 }
  
 
