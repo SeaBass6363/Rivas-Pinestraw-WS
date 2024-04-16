@@ -64,7 +64,7 @@ define( 'DB_HOST', 'localhost' );
   Username: <input type="texty" name="username"><br><br>
   Password: <input type="texty" name="password"><br><br>
   <input type="submit" value="Submit">
-
+  <br>
   <?php
     if($_POST['username']!= '' && $_POST['password']!= '') {
       CheckLogin($_POST['username'], $_POST['password']);
