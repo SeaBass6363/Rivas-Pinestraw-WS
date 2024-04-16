@@ -24,26 +24,7 @@ function insertOrder($ordername, $address, $phone , $product, $quantity, $servic
     $insert = "INSERT INTO Orders (id, ordername, address, phone, product, quantity, service, total, timestamp) VALUES (NULL, '$ordername', '$address', '$phone' , '$product', '$quantity', '$service', '$total', CURRENT_TIMESTAMP)";
     $result = $conn->query($insert);
 }
- 
- 
- 
-function showOrders() {
-    global $conn;
 
-    $sql = "SELECT id, ordername, address, phone, product, quantity, service, total, timestamp FROM Orders";
-    $result = mysqli_query($conn, $sql);
-
-    if (mysqli_num_rows($result) > 0) {
-      // output data of each row
-      while($row = mysqli_fetch_assoc($result)) {
-        $id = $row["id"];
-        $delurl = "[<a href='' onclick=return(deleteOrder('$id'))>delete</a>]";
-        echo "Qty: " . $row["quantity"]. " - Product: " . $row["product"]." - Service: " . $row["service"]." - Date Placed: " . $row["timestamp"]. " $delurl<br>";
-      }
-    } else {
-      echo "0 results";
-    }
-}
 
 function ordersTable() {
   global $conn;
@@ -80,11 +61,10 @@ $cmd = $_GET['cmd'];
  
 if($cmd == 'create' ) {
     insertOrder($_GET['ordername'], $_GET['address'], $_GET['phone'], $_GET['product'], $_GET['quantity'], $_GET['service'], $_GET['total']);
-    showOrders();
 } else if($cmd == 'delete') {
     $id = $_GET['id'];
     deleteOrder($id);
-    showOrders();
+    ordersTable();
 } else if($cmd == 'show') {
     //showOrders();
     ordersTable();
