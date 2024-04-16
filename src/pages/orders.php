@@ -34,7 +34,7 @@ define( 'DB_HOST', 'localhost' );
     if(!isset($_COOKIE['userid'])) {
         header("Location: ./sign-on.php");
       } else {
-        echo "Welcome: {$_COOKIE['userid']}<br>";
+        echo "<h5>Welcome: {$_COOKIE['userid']}</h5><br>";
       }
   ?>
   <br><br>
