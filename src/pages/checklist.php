@@ -210,6 +210,7 @@
             <input type="checkbox">
         </li>
     </ul>
+    </form>
   <script>
         function hideNav() {
             var x = document.getElementById("myTopnav");
