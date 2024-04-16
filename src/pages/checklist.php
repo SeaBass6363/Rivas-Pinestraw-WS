@@ -25,7 +25,7 @@
   </div>
   <br><br>
   <h2>Checklist</h2>
-<form>
+<form id="list">
     <ul >Database Usage
         <li>
             <a href="../../index.php">Homepage</a>

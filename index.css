@@ -182,6 +182,9 @@ li{
   text-align: center;
 }
 
+#list{
+  height: fit-content;
+}
 /* #map {
 	  border-radius: 10px;
     height: 250px;
