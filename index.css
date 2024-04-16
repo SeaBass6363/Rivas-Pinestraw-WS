@@ -178,12 +178,11 @@ ul {
   margin-left:35px;
 }
 li{
-  border: 1px solid black;
   text-align: center;
 }
 
 #list{
-  height: fit-content;
+  height: 1250px;
 }
 /* #map {
 	  border-radius: 10px;
