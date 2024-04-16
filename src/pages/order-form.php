@@ -31,17 +31,36 @@ define( 'DB_HOST', 'localhost' );
   <br><br>
   <h2>Order Form</h2>
          
-        <form onsubmit="return(insertPerson())">
+        <form onsubmit="return(insertPerson())" 
+            oninput="x.value=parseInt(productCost.value)*parseInt(quantity.value)">
             Name for Order: <input type="texty" id="ordername"><br>
             Address: <input type="texty" id="address"><br>
             Phone: <input type="texty" id="phone"><br>
-            Product: <input type="texty" id="product"><br>
-            Qty: <input type="texty" id="quantity"><br>
-            Service: <input type="texty" id="service"><br>
-            Total: <input type="texty" id="Total"><br><br>
-            <input type="submit" value="Submit">
+            
+            <label for="product">Products</label>
+            <select name="product" id="product" onchange="makeDisable(this)">
+            <option value="" selected disabled hidden>Choose here</option>
+            <option value="Pinestraw">Pinestraw</option>
+            <option value="Black Mulch">Black Mulch</option>
+            <option value="Brown Mulch">Brown Mulch</option>
+            <option value="Red Mulch">Red Mulch</option>
+            <option value="Top Soil">Top Soil</option>
+            </select>
+                
+            <label for="service">Service</label>
+            <select name="service" id="service">
+            <option value="" selected disabled hidden>Choose here</option>
+            <option value="Delivery">Delivery</option>
+            <option value="Installation">Installation</option>
+            </select><br><br>
+
+            <label for="quantity">Quantity (min: 20):</label>
+            <input type="number" id="quantity" name="quantity" min="20"><br><br>
+
+            Total: $<output name="total" id="total" value="0"></output><br><br>
+                    <input type="submit" value="Submit">
         </form>
-         
+  <script> src="../functions"</script>
   <script>
         function hideNav() {
             var x = document.getElementById("myTopnav");
