@@ -192,18 +192,11 @@ li{
  margin: auto;
 } */
 
-h2, h4{
+h2, h4 {
   text-align: center;
 }
-/* h4 {
-  text-align: center;
-} */
 
 table {
-  /* padding: 30px; */
-  margin: 30px;
+  width: 80%;
+  margin:auto;
 }
-
-/* #showOrders{
-  margin: 30px;
-} */
