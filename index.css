@@ -192,6 +192,10 @@ li{
  margin: auto;
 } */
 
-h2 {
+h2, h4 {
   text-align: center;
+}
+
+table {
+  padding: 30px;
 }
