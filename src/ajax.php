@@ -51,6 +51,8 @@ function ordersTable() {
     $sql = "SELECT id, ordername, address, phone, product, quantity, service, total, timestamp FROM Orders";
     $result = mysqli_query($conn, $sql);
 
+    echo "<table>"; // start a table tag in the HTML
+
     if (mysqli_num_rows($result) > 0) {
       // output data of each row
       while($row = mysqli_fetch_assoc($result)){   //Creates a loop to loop through results
