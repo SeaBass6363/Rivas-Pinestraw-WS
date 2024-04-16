@@ -43,8 +43,8 @@
             </div>
         </div>
 
-        <div class="grid-x" class="cell small-12 medium-12 large-12 text-right">
-            <div id="sidebar">
+        <div class="grid-x">
+            <div id="sidebar" class="cell small-12 medium-4 large-4 text-right">
                 <h2>For all your landscaping needs!</h2>
                 <p id="text">
                     Rivas Pinestraw and landscaping services is located at 3063 Braselton Hwy, Dacula, GA 30519
@@ -59,7 +59,7 @@
             </div>
             <div id="body" class="cell small-12 medium-8 large-8 text-right">
                 <h1 id="text">Products</h1>
-                <div id="products">
+                <div id="products" class="cell small-12 medium-4 large-4 text-right">
                     <a target="_blank" href="./src/pages/order-form.php">
                         <img src="./public/pinestraw.png" width="600" height="400">
                     </a>
@@ -69,7 +69,7 @@
                         <p>Installation: $7.50</p>
                     </div>
                 </div>
-                <div id="products">
+                <div id="products" class="cell small-12 medium-4 large-4 text-right">
                     <a target="_blank" href="./src/pages/order-form.php">
                         <img src="./public/black-mulch.png" width="600" height="400">
                     </a>
@@ -79,7 +79,7 @@
                         <p>Installation: $7.50</p>
                     </div>
                 </div>
-                <div id="products">
+                <div id="products" class="cell small-12 medium-4 large-4 text-right">
                     <a target="_blank" href="./src/pages/order-form.php">
                         <img src="./public/brown-mulch.png" width="600" height="400">
                     </a>
@@ -89,7 +89,7 @@
                         <p>Installation: $7.50</p>
                     </div>
                 </div>
-                <div id="products">
+                <div id="products" class="cell small-12 medium-4 large-4 text-right">
                     <a target="_blank" href="./src/pages/order-form.php">
                         <img src="./public/red-mulch.png" width="600" height="400">
                     </a>
@@ -99,7 +99,7 @@
                         <p>Installation: $7.50</p>
                     </div>
                 </div>
-                <div id="products">
+                <div id="products" class="cell small-12 medium-4 large-4 text-right">
                     <a target="_blank" href="./src/pages/order-form.php">
                         <img src="./public/top-soil.png" width="600" height="400">
                     </a>

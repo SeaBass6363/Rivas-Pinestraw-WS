@@ -102,7 +102,6 @@ html {
   width: 180px;
   height: 380px;
   padding: 10px;
-  margin: auto;
 }
 #product:hover {
   border: 1px solid #777;
