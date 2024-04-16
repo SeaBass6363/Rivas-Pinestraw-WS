@@ -93,7 +93,7 @@
                     <a target="_blank" href="./src/pages/order-form.php">
                         <img src="./public/red-mulch.png" width="600" height="400">
                     </a>
-                    <div id="desc" style="font-weight:bolder;color:white;">
+                    <div id="desc">
                         <p>Pick Up: $3.20</p>
                         <p>Delivery: $4.00</p>
                         <p>Installation: $7.50</p>
@@ -103,7 +103,7 @@
                     <a target="_blank" href="./src/pages/order-form.php">
                         <img src="./public/top-soil.png" width="600" height="400">
                     </a>
-                    <div id="desc" style="font-weight:bolder;color:white;">
+                    <div id="desc">
                         <p>Pick Up: $2.60</p>
                         <p>Delivery: $3.50</p>
                     </div>
