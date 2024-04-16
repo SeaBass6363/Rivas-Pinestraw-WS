@@ -56,7 +56,10 @@ function ordersTable() {
     if (mysqli_num_rows($result) > 0) {
       // output data of each row
       while($row = mysqli_fetch_assoc($result)){   //Creates a loop to loop through results
-      echo "<tr><td>" . $row['id'] . "</td><td>" 
+        $id = $row["id"];
+        $delurl = "[<a href='' onclick=return(deleteOrder('$id'))>delete</a>]";
+
+        echo "<tr><td>" . $row['id'] . "</td><td>" 
       . $row['ordername'] . "</td><td>" 
       . $row['address'] . "</td><td>" 
       . $row['phone'] . "</td><td>" 
@@ -64,7 +67,8 @@ function ordersTable() {
       . $row['quantity'] . "</td><td>" 
       . $row['service'] . "</td><td>" 
       . $row['total'] . "</td><td>" 
-      . $row['timestamp'] . "</td></tr>";  //$row['index'] the index here is a field name
+      . $row['timestamp'] . "</td><td>"
+      . $delurl . "</td></tr>";  //$row['index'] the index here is a field name
       }
 
       echo "</table>"; //Close the table in HTML
@@ -82,8 +86,7 @@ if($cmd == 'create' ) {
     deleteOrder($id);
     showOrders();
 } else if($cmd == 'show') {
-    showOrders();
-    echo"<br><br>Orders Recieved";
+    //showOrders();
     ordersTable();
 }
  

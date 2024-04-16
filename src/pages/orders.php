@@ -36,7 +36,12 @@ define( 'DB_HOST', 'localhost' );
   </div>
   <br><br>
   
-  <div id=showOrders></div>
+  <div id=showOrders>
+    <h4>
+        Orders Recieved
+    </h4>
+    
+  </div>
 
   <script>
         function hideNav() {
