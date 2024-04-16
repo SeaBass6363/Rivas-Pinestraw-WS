@@ -31,8 +31,7 @@ define( 'DB_HOST', 'localhost' );
   <br><br>
   <h2>Order Form</h2>
          
-        <form onsubmit="return(insertPerson())" 
-            oninput="x.value=parseInt(productCost.value)*parseInt(quantity.value)">
+        <form onsubmit="return(insertPerson())">
             Name for Order: <input type="texty" id="ordername"><br>
             Address: <input type="texty" id="address"><br>
             Phone: <input type="texty" id="phone"><br>
@@ -60,7 +59,7 @@ define( 'DB_HOST', 'localhost' );
             Total: $<output name="total" id="total" value="0"></output><br><br>
                     <input type="submit" value="Submit">
         </form>
-  <script> src="../functions"</script>
+  <script> src="../functions.js"</script>
   <script>
         function hideNav() {
             var x = document.getElementById("myTopnav");
