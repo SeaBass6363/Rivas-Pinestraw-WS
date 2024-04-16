@@ -11,11 +11,6 @@
 </head>
 <?php
 
-if(!isset($_COOKIE['userid'])) {
-    header("Location: ./sign-on.php");
-  } else {
-    echo "Welcome: {$_COOKIE['userid']}<br>";
-  }
 
 define( 'DB_NAME', 'rivas-lands' );
 define( 'DB_USER', 'root' );
@@ -34,6 +29,14 @@ define( 'DB_HOST', 'localhost' );
           <i class="fa fa-bars"></i>
       </a>
   </div>
+  <br>
+  <?php 
+    if(!isset($_COOKIE['userid'])) {
+        header("Location: ./sign-on.php");
+      } else {
+        echo "Welcome: {$_COOKIE['userid']}<br>";
+      }
+  ?>
   <br><br>
   
     <h4>
