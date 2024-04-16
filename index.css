@@ -98,10 +98,11 @@ html {
 }
 #products {
   background-color: white;
-  float:left;
+  float:right;
   width: 180px;
   height: 380px;
   padding: 10px;
+  margin-right:50px;
 }
 #product:hover {
   border: 1px solid #777;
