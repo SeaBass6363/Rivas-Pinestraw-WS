@@ -45,6 +45,28 @@ function showOrders() {
     }
 }
 
+function ordersTable() {
+  global $conn;
+
+  $query = "SELECT * FROM Orders"; //You don't need a ; like you do in SQL
+  $result = mysql_query($conn, $query);
+
+  echo "<table>"; // start a table tag in the HTML
+
+  while($row = mysql_fetch_array($result)){   //Creates a loop to loop through results
+  echo "<tr><td>" . htmlspecialchars($row['id']) . "</td><td>"
+                  . htmlspecialchars($row['ordername']) . "</td><td>"
+                  . htmlspecialchars($row['address']) . "</td><td>"
+                  . htmlspecialchars($row['phone']) . "</td><td>"
+                  . htmlspecialchars($row['product']) . "</td><td>"
+                  . htmlspecialchars($row['quantity']) . "</td><td>"
+                  . htmlspecialchars($row['service']) . "</td><td>"
+                  . htmlspecialchars($row['total']) . "</td><td>"
+                  . htmlspecialchars($row['timestamp']) . "</td></tr>";  //$row['index'] the index here is a field name
+  }
+
+  echo "</table>"; //Close the table in HTML
+}
 $cmd = $_GET['cmd'];
  
 if($cmd == 'create' ) {
@@ -56,6 +78,8 @@ if($cmd == 'create' ) {
     showOrders();
 } else if($cmd == 'show') {
     showOrders();
+    echo"<br><br>Orders Recieved";
+    ordersTable();
 }
  
 
