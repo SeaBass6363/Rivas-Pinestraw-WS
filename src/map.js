@@ -5,6 +5,7 @@ const apiKey = 'AIzaSyAkW0iGM8DniteJO7xa_yEuJseeFGQJLBM'
 let map;
 let currentMarker;
 
+
 function initMap() {
     const mapOptions = {
         center: { lat: 33.75243, lng: -84.39354 },
