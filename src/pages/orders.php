@@ -24,6 +24,7 @@ define( 'DB_HOST', 'localhost' );
       <a href="./order-form.php">Order Form</a>
       <a href="./checklist.php">Checklist</a>
       <a href="./description.php">Description</a>
+      <a href="./orders.php">Admin</a>
       <a href="./sign-on.php">Sign In</a>
       <a href="javascript:void(0);" class="icon" onclick="hideNav()">
           <i class="fa fa-bars"></i>
