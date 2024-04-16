@@ -53,7 +53,7 @@ function ordersTable() {
 
   echo "<table>"; // start a table tag in the HTML
 
-  while($row = mysql_fetch_array($result)){   //Creates a loop to loop through results
+  while($row = mysqli_fetch_assoc($result)){   //Creates a loop to loop through results
   echo "<tr><td>" . htmlspecialchars($row['id']) . "</td><td>"
                   . htmlspecialchars($row['ordername']) . "</td><td>"
                   . htmlspecialchars($row['address']) . "</td><td>"
@@ -79,7 +79,7 @@ if($cmd == 'create' ) {
 } else if($cmd == 'show') {
     showOrders();
     echo"<br><br>Orders Recieved";
-    //ordersTable();
+    ordersTable();
 }
  
 
