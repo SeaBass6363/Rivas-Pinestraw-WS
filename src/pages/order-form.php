@@ -59,7 +59,7 @@ define( 'DB_HOST', 'localhost' );
             Total: $<output name="total" id="total" value="0"></output><br><br>
                     <input type="submit" value="Submit">
         </form>
-  <script> src="../functions.js"</script>
+  <script src="../functions.js"></script>
   <script>
         function hideNav() {
             var x = document.getElementById("myTopnav");
